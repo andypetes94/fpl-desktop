@@ -51,7 +51,7 @@ This dashboard provides detailed insights into player performance, team trends, 
 | **Framework** | Shiny, shinydashboard, bslib |
 | **Styling** | Custom theme via `create_theme()` using AdminLTE colours |
 | **Visualisations** | ggplot2, plotly, DT tables |
-| **APIs** | [Fantasy Premier League API](https://fantasy.premierleague.com/api/) for live and historical data |
+| **APIs** | [Fantasy Premier League API](https://fantasy.premierleague.com/api/) for historical data |
 | **Data** | Local CSVs for processed data (`Players_History.csv`, `Fixtures.csv`, etc.) |
 
 ---
@@ -144,6 +144,6 @@ This project is licensed under the **MIT License** — you’re free to use, mod
 
 ## ⭐ Acknowledgements
 
-- [Fantasy Premier League API](https://fantasy.premierleague.com/api/)
+- [Fantasy Premier League API](https://fantasy.premierleague.com/)
 - R community & Shiny developers  
 - All data © Premier League, used for non-commercial, analytical purposes
