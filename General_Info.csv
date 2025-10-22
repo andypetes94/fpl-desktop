@@ -1,0 +1,866 @@
+"","id","first_name","second_name","web_name","team","element_type","photo","team_name","short_team_name","strength","strength_overall_home","strength_overall_away","strength_attack_home","strength_attack_away","strength_defence_home","strength_defence_away"
+"1",1,"Folarin","Balogun","Balogun",1,4,"232223.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"2",2,"Cédric","Alves Soares","Cédric",1,2,"58822.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"3",3,"Mohamed","Elneny","M.Elneny",1,3,"153256.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"4",4,"Fábio","Ferreira Vieira","Fábio Vieira",1,3,"438098.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"5",5,"Gabriel","dos Santos Magalhães","Gabriel",1,2,"226597.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"6",6,"Kai","Havertz","Havertz",1,3,"219847.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"7",8,"Gabriel","Fernando de Jesus","G.Jesus",1,4,"205651.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"8",9,"Jorge Luiz","Frello Filho","Jorginho",1,3,"85955.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"9",10,"Jakub","Kiwior","Kiwior",1,2,"440854.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"10",11,"Marcus","Oliveira Alencar","Marquinhos",1,3,"479683.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"11",12,"Gabriel","Martinelli Silva","Martinelli",1,3,"444145.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"12",13,"Eddie","Nketiah","Nketiah",1,4,"205533.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"13",14,"Martin","Ødegaard","Ødegaard",1,3,"184029.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"14",15,"Thomas","Partey","Thomas",1,3,"167199.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"15",16,"Nicolas","Pépé","Pepe",1,3,"195735.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"16",17,"Aaron","Ramsdale","Ramsdale",1,1,"225321.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"17",18,"Rúnar Alex","Rúnarsson","Rúnarsson",1,1,"115918.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"18",19,"Bukayo","Saka","Saka",1,3,"223340.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"19",20,"William","Saliba","Saliba",1,2,"462424.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"20",22,"Emile","Smith Rowe","Smith Rowe",1,3,"209289.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"21",24,"Kieran","Tierney","Tierney",1,2,"192895.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"22",25,"Takehiro","Tomiyasu","Tomiyasu",1,2,"223723.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"23",26,"Leandro","Trossard","Trossard",1,3,"116216.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"24",29,"Benjamin","White","White",1,2,"198869.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"25",30,"Granit","Xhaka","Xhaka",1,3,"84450.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"26",31,"Oleksandr","Zinchenko","Zinchenko",1,2,"206325.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"27",113,"David","Raya Martin","Raya",1,1,"154561.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"28",540,"Declan","Rice","Rice",1,3,"204480.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"29",578,"Reiss","Nelson","Nelson",1,3,"200641.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"30",585,"Jurriën","Timber","J.Timber",1,2,"445122.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"31",646,"Karl","Hein","Hein",1,1,"463748.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"32",735,"Charles","Sagoe","Sagoe",1,3,"516874.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"33",736,"Reuell","Walters","Walters",1,2,"535262.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"34",737,"Bradley","Ibrahim","Ibrahim",1,3,"535264.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"35",764,"Myles","Lewis-Skelly","Lewis-Skelly",1,3,"499169.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"36",772,"Ethan","Nwaneri","Nwaneri",1,3,"499175.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"37",815,"Mauro","Bandeira","Bandeira",1,3,"504751.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"38",817,"James","Sweet","Sweet",1,2,"503308.jpg","Arsenal","ARS",5,1350,1365,1370,1370,1330,1360
+"39",32,"Alexandre","Moreno Lopera","Alex Moreno",2,2,"106468.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"40",34,"Leon","Bailey","Bailey",2,3,"215711.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"41",35,"Emiliano","Buendía Stati","Buendia",2,3,"195546.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"42",36,"Matty","Cash","Cash",2,2,"199796.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"43",37,"Calum","Chambers","Chambers",2,2,"101184.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"44",38,"Philippe","Coutinho Correia","Coutinho",2,3,"84583.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"45",39,"Keinan","Davis","Davis",2,4,"221239.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"46",40,"Leander","Dendoncker","Dendoncker",2,3,"151589.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"47",41,"Diego Carlos","Santos Silva","Diego Carlos",2,2,"165659.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"48",42,"Lucas","Digne","Digne",2,2,"101188.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"49",43,"Douglas Luiz","Soares de Paulo","Douglas Luiz",2,3,"230046.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"50",44,"Jhon","Durán","Duran",2,4,"476344.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"51",45,"Kortney","Hause","Hause",2,2,"123354.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"52",46,"Tim","Iroegbunam","Iroegbunam",2,3,"490094.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"53",47,"Boubacar","Kamara","Kamara",2,3,"226944.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"54",48,"Ezri","Konsa Ngoyo","Konsa",2,2,"199798.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"55",49,"Emiliano","Martínez Romero","Martinez",2,1,"98980.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"56",50,"John","McGinn","McGinn",2,3,"122806.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"57",51,"Tyrone","Mings","Mings",2,2,"149484.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"58",53,"Robin","Olsen","Olsen",2,1,"111782.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"59",54,"Jaden","Philogene-Bidace","Philogene",2,3,"481624.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"60",55,"Jacob","Ramsey","J.Ramsey",2,3,"232653.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"61",56,"Morgan","Sanson","Sanson",2,3,"122775.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"62",57,"Viljami","Sinisalo","Sinisalo",2,1,"248164.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"63",58,"Youri","Tielemans","Tielemans",2,3,"166989.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"64",59,"Bertrand","Traoré","Bertrand Traoré",2,3,"110504.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"65",60,"Ollie","Watkins","Watkins",2,4,"178301.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"66",61,"Wesley","Moraes Ferreira da Silva","Wesley",2,4,"213345.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"67",584,"Pau","Torres","Pau",2,2,"244954.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"68",599,"Moussa","Diaby","Diaby",2,3,"243557.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"69",618,"Omari","Kellyman","Kellyman",2,3,"549068.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"70",670,"Filip","Marschall","Marschall",2,1,"462381.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"71",672,"Nicolò","Zaniolo","Zaniolo",2,3,"245414.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"72",686,"Oliwier","Zych","Zych",2,1,"516159.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"73",699,"Clément","Lenglet","Lenglet",2,2,"171101.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"74",765,"Sam","Proctor","Proctor",2,1,"564505.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"75",767,"Tommi","O'Reilly","O'Reilly",2,3,"515599.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"76",778,"James","Wright","Wright",2,1,"481283.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"77",793,"Kaine","Kesler-Hayden","Kesler-Hayden",2,2,"465390.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"78",803,"Morgan","Rogers","Rogers",2,3,"244850.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"79",818,"Joe","Gauci","Gauci",2,1,"462492.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"80",854,"Finley","Munroe","Munroe",2,2,"521966.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"81",865,"Kadan","Young","Young",2,3,"537403.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"82",866,"Lander","Emery","Emery",2,1,"646754.jpg","Aston Villa","AVL",4,1160,1285,1140,1220,1180,1350
+"83",62,"Jaidon","Anthony","Anthony",3,3,"444180.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"84",63,"Philip","Billing","Billing",3,3,"168991.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"85",64,"David","Brooks","Brooks",3,3,"111317.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"86",65,"Ryan","Christie","Christie",3,3,"158499.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"87",66,"Lewis","Cook","L.Cook",3,3,"155408.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"88",67,"Siriki","Dembélé","Siriki",3,3,"244085.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"89",68,"Ryan","Fredericks","Fredericks",3,2,"81012.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"90",69,"James","Hill","Hill",3,2,"463981.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"91",70,"Lloyd","Kelly","Kelly",3,2,"235530.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"92",71,"Gavin","Kilkenny","Kilkenny",3,3,"444183.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"93",72,"Justin","Kluivert","Kluivert",3,3,"222683.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"94",73,"Jamal","Lowe","Lowe",3,3,"128309.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"95",74,"Emiliano","Marcondes","Marcondes",3,3,"133845.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"96",75,"Chris","Mepham","Mepham",3,2,"223911.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"97",76,"Kieffer","Moore","Moore",3,4,"128340.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"98",77,"Norberto","Murara Neto","Neto",3,1,"69752.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"99",78,"Dango","Ouattara","O.Dango",3,3,"533463.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"100",79,"Ben","Pearson","Pearson",3,3,"156687.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"101",80,"Darren","Randolph","Randolph",3,1,"32259.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"102",81,"Joe","Rothwell","Rothwell",3,3,"156685.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"103",82,"Antoine","Semenyo","Semenyo",3,4,"437730.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"104",83,"Marcos","Senesi","Senesi",3,2,"221466.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"105",84,"Adam","Smith","Smith",3,2,"54469.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"106",85,"Dominic","Solanke","Solanke",3,4,"154566.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"107",86,"Marcus","Tavernier","Tavernier",3,3,"201658.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"108",87,"Hamed","Traorè","Hamed Traorè",3,3,"424044.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"109",88,"Mark","Travers","Travers",3,1,"229600.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"110",89,"Illia","Zabarnyi","Zabarnyi",3,2,"477580.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"111",595,"Milos","Kerkez","Kerkez",3,2,"544877.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"112",607,"Ionuț","Radu","Radu",3,1,"215531.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"113",619,"Ben","Greenwood","Greenwood",3,2,"474772.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"114",643,"Max","Aarons","Aarons",3,2,"232980.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"115",644,"Alex","Scott","Scott",3,3,"503139.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"116",673,"Tyler","Adams","Adams",3,3,"200785.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"117",705,"Luis","Sinisterra","Sinisterra",3,3,"224995.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"118",799,"Romain","Faivre","Faivre",3,3,"441240.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"119",802,"Max","Kinsey","Kinsey",3,2,"496683.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"120",804,"Enes","Ünal","Enes Ünal",3,4,"168636.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"121",811,"Dominic","Sadi","Sadi",3,3,"550596.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"122",849,"Michael","Dacosta Gonzalez","Dacosta Gonzalez",3,3,"596572.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"123",855,"Callan","McKenna","McKenna",3,1,"568791.jpg","Bournemouth","BOU",3,1100,1100,1055,1130,1145,1075
+"124",90,"Kristoffer","Ajer","Ajer",4,2,"191866.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"125",91,"Ellery","Balcombe","Balcombe",4,1,"235448.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"126",92,"Shandon","Baptiste","Baptiste",4,3,"432160.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"127",93,"Mads","Bech Sørensen","Bech",4,2,"228044.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"128",94,"Mads","Bidstrup","Bidstrup",4,3,"481405.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"129",95,"Sergi","Canós Tenés","Canós",4,3,"174932.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"130",96,"Nathan","Collins","Collins",4,2,"432830.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"131",97,"Matthew","Cox","Cox",4,1,"503300.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"132",98,"Mikkel","Damsgaard","Damsgaard",4,3,"440089.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"133",99,"Josh","Dasilva","Dasilva",4,3,"183656.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"134",100,"Halil","Dervişoğlu","Dervişoğlu",4,4,"434662.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"135",101,"Mark","Flekken","Flekken",4,1,"118342.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"136",102,"Charlie","Goode","Goode",4,2,"213687.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"137",103,"Rico","Henry","Henry",4,2,"194010.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"138",104,"Aaron","Hickey","Hickey",4,2,"472713.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"139",105,"Vitaly","Janelt","Janelt",4,3,"204580.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"140",106,"Mathias","Jensen","Jensen",4,3,"207283.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"141",107,"Keane","Lewis-Potter","Lewis-Potter",4,3,"249231.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"142",108,"Bryan","Mbeumo","Mbeumo",4,3,"446008.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"143",109,"Ben","Mee","Mee",4,2,"51927.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"144",110,"Christian","Nørgaard","Nørgaard",4,3,"128295.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"145",111,"Frank","Onyeka","Onyeka",4,3,"428580.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"146",112,"Ethan","Pinnock","Pinnock",4,2,"231065.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"147",114,"Mads","Roerslev Rasmussen","Roerslev",4,2,"226956.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"148",115,"Kevin","Schade","Schade",4,3,"513418.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"149",116,"Thomas","Strakosha","Strakosha",4,1,"140200.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"150",117,"Ivan","Toney","Toney",4,4,"144485.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"151",118,"Ryan","Trevitt","Trevitt",4,3,"591357.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"152",119,"Yoane","Wissa","Wissa",4,4,"216646.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"153",120,"Yegor","Yarmoliuk","Yarmoliuk",4,3,"508395.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"154",121,"Mathias","Jorgensen","Zanka",4,2,"48760.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"155",258,"Neal","Maupay","Maupay",4,4,"115382.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"156",508,"Sergio","Reguilón","Reguilón",4,2,"199249.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"157",620,"Michael","Olakigbe","Olakigbe",4,3,"501284.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"158",684,"Ethan","Brierley","Brierley",4,3,"494041.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"159",701,"Saman","Ghoddos","Ghoddos",4,3,"205836.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"160",725,"Ji-Soo","Kim","Kim Ji-Soo",4,2,"570241.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"161",733,"Valintino","Adedokun","Adedokun",4,2,"516432.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"162",744,"Myles","Peart-Harris","Peart-Harris",4,3,"450539.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"163",752,"Vincent","Angelini","Angelini",4,1,"563883.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"164",789,"Hákon","Valdimarsson","Valdimarsson",4,1,"507433.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"165",797,"Benjamin","Fredrick","Fredrick",4,2,"612534.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"166",834,"Benjamin","Arthur","Arthur",4,2,"622536.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"167",864,"Yunus","Konak","Konak",4,3,"628204.jpg","Brentford","BRE",3,1100,1100,1110,1055,1090,1150
+"168",122,"Simon","Adingra","Adingra",5,3,"535818.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"169",123,"Steven","Alzate","Alzate",5,3,"235382.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"170",124,"Yasin","Ayari","Ayari",5,3,"509416.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"171",125,"Facundo","Buonanotte","Buonanotte",5,3,"536916.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"172",127,"Aaron","Connolly","Connolly",5,4,"233425.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"173",128,"Mahmoud","Dahoud","Dahoud",5,3,"168090.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"174",129,"Lewis","Dunk","Dunk",5,2,"83299.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"175",130,"Julio","Enciso","Enciso",5,3,"474120.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"176",131,"Pervis","Estupiñán","Estupiñan",5,2,"204214.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"177",132,"Evan","Ferguson","Ferguson",5,4,"487117.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"178",133,"Billy","Gilmour","Gilmour",5,3,"243568.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"179",134,"Pascal","Groß","Gross",5,3,"60307.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"180",135,"João Pedro","Junqueira de Jesus","João Pedro",5,4,"475168.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"181",136,"Michał","Karbownik","Karbownik",5,2,"442229.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"182",137,"Kacper","Kozłowski","Kozłowski",5,3,"484658.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"183",138,"Adam","Lallana","Lallana",5,3,"39155.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"184",139,"Tariq","Lamptey","Lamptey",5,2,"232792.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"185",140,"Solly","March","March",5,3,"109345.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"186",141,"Tom","McGill","McGill",5,1,"209288.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"187",142,"James","Milner","Milner",5,3,"15157.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"188",143,"Kaoru","Mitoma","Mitoma",5,3,"451340.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"189",144,"Jakub","Moder","Moder",5,3,"243505.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"190",146,"Jeremy","Sarmiento Morante","Sarmiento",5,3,"441192.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"191",147,"Kjell","Scherpen","Scherpen",5,1,"240514.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"192",148,"Jason","Steele","Steele",5,1,"49262.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"193",149,"Deniz","Undav","Undav",5,4,"450434.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"194",150,"Jan Paul","van Hecke","Van Hecke",5,2,"469142.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"195",151,"Joël","Veltman","Veltman",5,2,"111478.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"196",152,"Bart","Verbruggen","Verbruggen",5,1,"489639.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"197",153,"Adam","Webster","Webster",5,2,"110735.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"198",154,"Danny","Welbeck","Welbeck",5,4,"50175.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"199",155,"Andi","Zeqiri","Zeqiri",5,4,"204676.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"200",606,"Igor Julio","dos Santos de Paulo","Igor",5,2,"223434.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"201",621,"Jack","Hinshelwood","Hinshelwood",5,3,"532529.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"202",690,"Carlos","Baleba","Baleba",5,3,"535301.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"203",700,"Anssumane","Fati Vieira","Ansu Fati",5,3,"465607.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"204",741,"Mark","O’Mahony","O’Mahony",5,4,"574402.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"205",742,"Benicio","Baker-Boaitey","Baker-Boaitey",5,3,"475480.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"206",746,"Ben","Jackson","Jackson",5,2,"514154.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"207",747,"Joshua","Duffus","Duffus",5,3,"532528.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"208",753,"Leigh","Kavanagh","Kavanagh",5,2,"513836.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"209",755,"Luca","Barrington","Barrington",5,3,"500052.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"210",786,"Cameron","Peupion","Peupion",5,3,"491598.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"211",816,"Valentín","Barco","Barco",5,2,"543158.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"212",843,"Samy","Chouchane","Chouchane",5,3,"513840.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"213",845,"Odeluga","Offiah","Offiah",5,2,"445548.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"214",861,"Noël","Atom","Atom",5,2,"549014.jpg","Brighton","BHA",3,1100,1210,1070,1180,1135,1240
+"215",156,"Enock","Agyei","Agyei",6,3,"578614.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"216",157,"Ameen","Al-Dakhil","Al-Dakhil",6,2,"487968.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"217",158,"Samuel","Bastien","Bastien",6,3,"189776.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"218",159,"Manuel Benson","Hedilazio","Benson",6,3,"183751.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"219",160,"Jordan","Beyer","Beyer",6,2,"241231.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"220",161,"Josh","Brownhill","Brownhill",6,3,"172782.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"221",162,"Darko","Churlinov","Churlinov",6,3,"250735.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"222",163,"Jack","Cork","Cork",6,3,"40145.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"223",164,"Dara","Costelloe","Costelloe",6,3,"530873.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"224",165,"Josh","Cullen","Cullen",6,3,"172567.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"225",166,"CJ","Egan-Riley","Egan-Riley",6,2,"432711.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"226",167,"Hjalmar","Ekdal","Ekdal",6,2,"478969.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"227",168,"Lyle","Foster","Foster",6,4,"435973.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"228",169,"Denis","Franchi","Franchi",6,1,"493347.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"229",170,"Jóhann Berg","Gudmundsson","Gudmundsson",6,3,"60586.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"230",171,"Luke","McNally","McNally",6,2,"483391.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"231",172,"Arijanet","Muric","Muric",6,1,"232917.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"232",173,"Dara","O'Shea","O'Shea",6,2,"216616.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"233",174,"Michael","Obafemi","Obafemi",6,4,"220598.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"234",175,"Bailey","Peacock-Farrell","Peacock-Farrell",6,1,"220037.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"235",176,"Connor","Roberts","Roberts",6,2,"192290.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"236",177,"Jay","Rodriguez","Rodriguez",6,4,"44683.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"237",178,"Charlie","Taylor","Taylor",6,2,"103914.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"238",179,"Bobby","Thomas","Thomas",6,2,"461102.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"239",180,"Scott","Twine","Twine",6,3,"226473.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"240",181,"Lawrence","Vigouroux","Vigouroux",6,1,"133085.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"241",182,"Victor","da Silva","Vitinho",6,2,"441455.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"242",183,"Wout","Weghorst","Weghorst",6,4,"120202.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"243",184,"Anass","Zaroury","Zaroury",6,3,"511783.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"244",200,"David Datro","Fofana","D.D.Fofana",6,4,"520295.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"245",475,"Sander","Berge","Berge",6,3,"207189.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"246",594,"Zeki","Amdouni","Amdouni",6,4,"492831.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"247",596,"James","Trafford","Trafford",6,1,"432720.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"248",600,"Nathan","Redmond","Redmond",6,3,"83283.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"249",605,"Luca","Koleosho","Koleosho",6,3,"487702.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"250",608,"Jacob","Bruun Larsen","Bruun Larsen",6,3,"179458.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"251",622,"Owen","Dodgson","Dodgson",6,2,"461567.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"252",660,"Wilson","Odobert","Odobert",6,3,"550839.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"253",674,"Hannes","Delcroix","Delcroix",6,2,"247245.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"254",675,"Aaron","Ramsey","A.Ramsey",6,3,"447715.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"255",694,"Han-Noah","Massengo","Massengo",6,3,"437757.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"256",706,"Mike","Trésor","M.Trésor",6,3,"437748.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"257",805,"Lorenz","Assignon","Assignon",6,2,"503724.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"258",806,"Maxime","Esteve","Estève",6,2,"477717.jpg","Burnley","BUR",2,1045,1050,1050,1050,1040,1050
+"259",126,"Moisés","Caicedo Corozo","Caicedo",7,3,"486672.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"260",145,"Robert","Sánchez","Sanchez",7,1,"215059.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"261",185,"Ethan","Ampadu","Ampadu",7,2,"199598.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"262",186,"Andrey","Nascimento dos Santos","Andrey",7,3,"532605.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"263",187,"Kepa","Arrizabalaga","Arrizabalaga",7,1,"109745.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"264",188,"Pierre-Emerick","Aubameyang","Aubameyang",7,4,"54694.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"265",189,"César","Azpilicueta","Azpilicueta",7,2,"41328.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"266",190,"Abdul Rahman","Baba","Baba",7,2,"118335.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"267",191,"Benoît","Badiashile","B.Badiashile",7,2,"242880.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"268",192,"Marcus","Bettinelli","Bettinelli",7,1,"122074.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"269",194,"Trevoh","Chalobah","Chalobah",7,2,"180736.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"270",195,"Ben","Chilwell","Chilwell",7,2,"172850.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"271",196,"Carney","Chukwuemeka","Chukwuemeka",7,3,"478912.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"272",197,"Levi","Colwill","Colwill",7,2,"460028.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"273",198,"Marc","Cucurella Saseta","Cucurella",7,2,"179268.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"274",199,"Enzo","Fernández","Enzo",7,3,"448047.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"275",201,"Wesley","Fofana","W.Fofana",7,2,"444463.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"276",202,"Conor","Gallagher","Gallagher",7,3,"232787.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"277",203,"Malo","Gusto","Gusto",7,2,"482609.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"278",206,"Reece","James","James",7,2,"225796.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"279",207,"Romelu","Lukaku Bolingoli","Lukaku",7,4,"66749.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"280",208,"Noni","Madueke","Madueke",7,3,"248857.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"281",210,"Mykhailo","Mudryk","Mudryk",7,3,"465920.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"282",211,"Nicolas","Jackson","N.Jackson",7,4,"517052.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"283",212,"Christopher","Nkunku","Nkunku",7,4,"213198.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"284",213,"Christian","Pulisic","Pulisic",7,3,"176413.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"285",214,"Malang","Sarr","M.Sarr",7,2,"204727.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"286",215,"Gabriel","Słonina","Slonina",7,1,"471798.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"287",216,"Raheem","Sterling","Sterling",7,3,"103955.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"288",217,"Thiago","Emiliano da Silva","T.Silva",7,2,"51090.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"289",218,"Hakim","Ziyech","Ziyech",7,3,"124183.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"290",362,"Cole","Palmer","Palmer",7,3,"244851.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"291",589,"Ângelo Gabriel","Borges Damaceno","Ângelo",7,3,"518620.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"292",609,"Ian","Maatsen","Maatsen",7,3,"441302.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"293",611,"Axel","Disasi","Disasi",7,2,"220362.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"294",613,"Lesley","Ugochukwu","Ugochukwu",7,3,"503714.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"295",623,"Mason","Burstow","Burstow",7,4,"534392.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"296",659,"Lucas","Bergström","Bergström",7,1,"482158.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"297",667,"Roméo","Lavia","Lavia",7,3,"514356.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"298",671,"Bashir","Humphreys","Humphreys",7,2,"461188.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"299",677,"Deivid Washington","de Souza Eugênio","Deivid",7,4,"617054.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"300",680,"Eddie","Beach","Beach",7,1,"474803.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"301",681,"Diego Manuel Jadon","da Silva Moreira","Diego Moreira",7,3,"491011.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"302",687,"Đorđe","Petrović","Petrović",7,1,"457569.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"303",716,"Alfie","Gilchrist","Gilchrist",7,2,"514280.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"304",717,"Ronnie","Stutter","Stutter",7,4,"517996.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"305",718,"Alex","Matos","Matos",7,3,"519198.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"306",723,"Josh","Brooking","Brooking",7,2,"248854.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"307",758,"Leo","Castledine","Castledine",7,3,"517995.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"308",791,"Cesare","Casadei","Casadei",7,3,"505187.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"309",819,"Ishé","Samuels-Smith","Samuels-Smith",7,2,"536238.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"310",820,"Ollie","Harrison","Harrison",7,3,"597983.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"311",830,"Jimi","Tauriainen","Tauriainen",7,3,"514277.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"312",838,"Josh","Acheampong","Acheampong",7,2,"577016.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"313",847,"Teddy","Sharman-Lowe","Sharman-Lowe",7,1,"499857.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"314",851,"Tyrique","George","George",7,4,"550615.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"315",852,"Kiano","Dyer","Dyer",7,3,"559963.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"316",858,"Ted","Curd","Curd",7,1,"518892.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"317",859,"Zak","Sturge","Sturge",7,2,"496222.jpg","Chelsea","CHE",3,1125,1190,1080,1150,1170,1230
+"318",7,"Rob","Holding","Holding",8,2,"156074.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"319",219,"Naouirou","Ahamada","Ahamada",8,3,"466117.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"320",220,"Joachim","Andersen","Andersen",8,2,"174874.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"321",221,"Jordan","Ayew","J.Ayew",8,3,"80146.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"322",222,"Nathaniel","Clyne","Clyne",8,2,"57328.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"323",223,"Cheick","Doucouré","C.Doucouré",8,3,"438464.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"324",224,"Malcolm","Ebiowei","Ebiowei",8,3,"450535.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"325",225,"Odsonne","Edouard","Edouard",8,4,"199670.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"326",226,"Eberechi","Eze","Eze",8,3,"232413.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"327",227,"Vicente","Guaita","Guaita",8,1,"40836.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"328",228,"Marc","Guéhi","Guéhi",8,2,"209036.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"329",229,"Will","Hughes","Hughes",8,3,"108413.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"330",230,"Sam","Johnstone","Johnstone",8,1,"101982.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"331",231,"Jefferson","Lerma Solís","Lerma",8,3,"152551.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"332",232,"Jean-Philippe","Mateta","Mateta",8,4,"231747.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"333",233,"Remi","Matthews","Matthews",8,1,"169593.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"334",234,"Tyrick","Mitchell","Mitchell",8,2,"244723.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"335",235,"Jake","O'Brien","O'Brien",8,2,"512462.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"336",236,"Michael","Olise","Olise",8,3,"443661.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"337",237,"Luke","Plange","Plange",8,4,"450541.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"338",238,"Chris","Richards","C.Richards",8,2,"427623.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"339",239,"Jairo","Riedewald","Riedewald",8,3,"173954.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"340",240,"Jeffrey","Schlupp","Schlupp",8,3,"86417.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"341",241,"James","Tomkins","Tomkins",8,2,"49413.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"342",242,"Joel","Ward","Ward",8,2,"55494.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"343",243,"Joe","Whitworth","Whitworth",8,1,"487818.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"344",385,"Dean","Henderson","Henderson",8,1,"172649.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"345",615,"Matheus","França de Oliveira","Matheus França",8,3,"536694.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"346",657,"Jesurun","Rak-Sakyi","Rak-Sakyi",8,3,"450542.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"347",658,"John-Kymani","Gordon","Gordon",8,4,"461382.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"348",720,"Ademola","Ola-Adebomi","Ola-Adebomi",8,4,"531993.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"349",721,"David","Ozoh","Ozoh",8,3,"531989.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"350",724,"Jadan","Raymond","Raymond",8,3,"474908.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"351",763,"Tayo","Adaramola","Adaramola",8,2,"501468.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"352",792,"Daniel","Muñoz","Muñoz",8,2,"247348.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"353",807,"Adam","Wharton","Wharton",8,3,"496221.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"354",821,"Franco","Umeh-Chibueze","Umeh-Chibueze",8,4,"574398.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"355",825,"Kaden","Rodney","Rodney",8,3,"530318.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"356",842,"Roshaun","Mathurin","Mathurin",8,3,"493121.jpg","Crystal Palace","CRY",3,1070,1100,1080,1120,1060,1085
+"357",244,"André","Tavares Gomes","André Gomes",9,3,"120250.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"358",245,"Jarrad","Branthwaite","Branthwaite",9,2,"480455.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"359",246,"Dominic","Calvert-Lewin","Calvert-Lewin",9,4,"177815.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"360",247,"Seamus","Coleman","Coleman",9,2,"59949.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"361",248,"Dele","Alli","Dele",9,3,"108823.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"362",249,"Abdoulaye","Doucouré","A.Doucoure",9,3,"121599.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"363",250,"James","Garner","Garner",9,3,"232928.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"364",251,"Jean-Philippe","Gbamin","Gbamin",9,3,"160987.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"365",252,"Ben","Godfrey","Godfrey",9,2,"198826.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"366",253,"Demarai","Gray","Gray",9,3,"172632.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"367",254,"Idrissa","Gueye","Gana",9,3,"80801.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"368",257,"Michael","Keane","Keane",9,2,"106611.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"369",259,"Dwight","McNeil","McNeil",9,3,"433154.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"370",260,"Vitalii","Mykolenko","Mykolenko",9,2,"224967.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"371",261,"Amadou","Onana","Onana",9,3,"449871.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"372",262,"Nathan","Patterson","Patterson",9,2,"243571.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"373",263,"Jordan","Pickford","Pickford",9,1,"111234.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"374",264,"Ellis","Simms","Simms",9,4,"218997.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"375",265,"James","Tarkowski","Tarkowski",9,2,"17761.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"376",266,"João","Neves Virgínia","J.Virginia",9,1,"222627.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"377",579,"Andy","Lonergan","Lonergan",9,1,"11948.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"378",588,"Ashley","Young","Young",9,2,"18892.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"379",601,"Arnaut","Danjuma Groeneveld","Danjuma",9,3,"220307.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"380",624,"Lewis","Dobbin","Dobbin",9,3,"461421.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"381",645,"Youssef","Ramalho Chermiti","Y. Chermiti",9,4,"491012.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"382",649,"Thomas","Cannon","Cannon",9,4,"461416.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"383",650,"Tyler","Onyango","Onyango",9,3,"461446.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"384",661,"Jack","Harrison","Harrison",9,3,"221399.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"385",691,"Norberto Bercique","Gomes Betuncal","Beto",9,4,"486385.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"386",719,"Mackenzie","Hunt","Hunt",9,3,"447261.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"387",760,"Jenson","Metcalfe","Metcalfe",9,3,"491557.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"388",761,"Elijah","Campbell","Campbell",9,2,"491745.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"389",841,"Lewis","Warrington","Warrington",9,3,"461453.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"390",863,"Billy","Crellin","Crellin",9,1,"438405.jpg","Everton","EVE",3,1095,1100,1125,1125,1065,1080
+"391",193,"Armando","Broja","Broja",10,4,"440323.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"392",256,"Alex","Iwobi","Iwobi",10,3,"153133.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"393",267,"Andreas","Hoelgebaum Pereira","Andreas",10,3,"156689.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"394",268,"Tom","Cairney","Cairney",10,3,"76357.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"395",269,"Ivan","Neves Abreu Cavaleiro","I.Cavaleiro",10,3,"166324.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"396",270,"Bobby","De Cordova-Reid","De Cordova-Reid",10,3,"96994.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"397",271,"Issa","Diop","Diop",10,2,"219924.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"398",272,"Tyrese","Francois","Francois",10,3,"432931.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"399",273,"Anthony","Knockaert","Knockaert",10,3,"83543.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"400",274,"Terence","Kongolo","Kongolo",10,2,"109434.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"401",275,"Bernd","Leno","Leno",10,1,"80201.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"402",276,"Saša","Lukić","Lukić",10,3,"212314.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"403",277,"Kevin","Mbabu","Mbabu",10,2,"120721.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"404",278,"Aleksandar","Mitrović","Mitrović",10,4,"128389.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"405",279,"Rodrigo","Muniz Carvalho","Muniz",10,4,"244042.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"406",280,"João","Palhinha Gonçalves","J.Palhinha",10,3,"154296.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"407",281,"Tim","Ream","Ream",10,2,"82514.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"408",282,"Harrison","Reed","Reed",10,3,"153366.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"409",283,"Antonee","Robinson","Robinson",10,2,"169528.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"410",284,"Marek","Rodák","Rodák",10,1,"155529.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"411",285,"Kenny","Tete","Tete",10,2,"167074.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"412",286,"Tosin","Adarabioyo","Tosin",10,2,"109646.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"413",287,"Carlos Vinícius","Alves Morais","Vinícius",10,4,"245824.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"414",288,"Harry","Wilson","Wilson",10,3,"153682.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"415",558,"Raúl","Jiménez","Raúl",10,4,"102057.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"416",591,"Willian","Borges da Silva","Willian",10,3,"47431.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"417",610,"Calvin","Bassey","Bassey",10,2,"232892.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"418",625,"Luc","De Fougerolles","De Fougerolles",10,2,"547686.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"419",651,"Jay","Stansfield","Stansfield",10,4,"490146.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"420",652,"Matthew","Dibley-Dias","Dibley-Dias",10,3,"515023.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"421",662,"Adama","Traoré","Adama",10,3,"159533.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"422",683,"Luke","Harris","Harris",10,3,"515024.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"423",688,"Timothy","Castagne","Castagne",10,2,"166477.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"424",692,"Steven","Benda","Benda",10,1,"428971.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"425",707,"Fodé","Ballo-Touré","Ballo-Touré",10,2,"225897.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"426",732,"Devan","Tanton","Tanton",10,2,"487693.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"427",796,"Kristian","Sekularac","Sekularac",10,3,"511504.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"428",810,"Joshua","King","King",10,3,"577725.jpg","Fulham","FUL",3,1055,1175,1050,1180,1060,1170
+"429",289,"Adrián","San Miguel del Castillo","Adrián",11,1,"60706.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"430",290,"Trent","Alexander-Arnold","Alexander-Arnold",11,2,"169187.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"431",291,"Alisson","Ramses Becker","A.Becker",11,1,"116535.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"432",292,"Stefan","Bajcetic","Bajcetic",11,3,"535928.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"433",293,"Darwin","Núñez Ribeiro","Darwin",11,4,"447203.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"434",294,"Diogo","Teixeira da Silva","Diogo J.",11,3,"194634.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"435",295,"Harvey","Elliott","Elliott",11,3,"444884.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"436",296,"Fabio Henrique","Tavares","Fabinho",11,3,"116643.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"437",297,"Cody","Gakpo","Gakpo",11,4,"243298.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"438",298,"Joe","Gomez","Gomez",11,2,"171287.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"439",299,"Jordan","Henderson","Henderson",11,3,"56979.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"440",300,"Curtis","Jones","Jones",11,3,"206915.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"441",301,"Caoimhin","Kelleher","Kelleher",11,1,"200720.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"442",302,"Ibrahima","Konaté","Konaté",11,2,"204716.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"443",303,"Luis","Díaz","Luis Díaz",11,3,"244731.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"444",304,"Alexis","Mac Allister","Mac Allister",11,3,"243016.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"445",305,"Joel","Matip","Matip",11,2,"60914.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"446",306,"Nathaniel","Phillips","Phillips",11,2,"197464.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"447",307,"Andrew","Robertson","Robertson",11,2,"122798.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"448",308,"Mohamed","Salah","Salah",11,3,"118748.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"449",309,"Dominik","Szoboszlai","Szoboszlai",11,3,"424876.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"450",310,"Thiago","Alcántara do Nascimento","Thiago",11,3,"61558.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"451",311,"Konstantinos","Tsimikas","Tsimikas",11,2,"214285.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"452",312,"Sepp","van den Berg","Van den Berg",11,2,"444765.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"453",313,"Virgil","van Dijk","Virgil",11,2,"97032.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"454",626,"Jarell","Quansah","Quansah",11,2,"441428.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"455",627,"Bobby","Clark","Clark",11,3,"491970.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"456",628,"Ben","Doak","Doak",11,3,"496208.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"457",629,"James","McConnell","McConnell",11,3,"491501.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"458",668,"Wataru","Endo","Endo",11,3,"158983.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"459",708,"Ryan","Gravenberch","Gravenberch",11,3,"441266.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"460",726,"Luke","Chambers","Chambers",11,2,"462491.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"461",728,"Callum","Scanlon","Scanlon",11,2,"519328.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"462",743,"Treymaurice","Nyoni","Nyoni",11,3,"591386.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"463",756,"Marcelo","de Araújo Pitaluga Filho","Pitaluga",11,1,"443629.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"464",757,"Conor","Bradley","Bradley",11,2,"492777.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"465",782,"Owen","Beck","Beck",11,2,"430992.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"466",783,"Kaide","Gordon","Gordon",11,3,"496185.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"467",812,"Lewis","Koumas","Koumas",11,4,"514514.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"468",813,"Fabian","Mrozek","Mrozek",11,1,"518199.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"469",824,"Jayden","Danns","Danns",11,4,"500058.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"470",837,"Amara","Nallo","Nallo",11,2,"611926.jpg","Liverpool","LIV",4,1240,1370,1210,1350,1270,1390
+"471",21,"Albert","Sambi Lokonga","Sambi",12,3,"437742.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"472",52,"Marvelous","Nakamba","Nakamba",12,3,"184704.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"473",314,"Elijah","Adebayo","Adebayo",12,4,"174310.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"474",315,"Mads Juel","Andersen","Andersen",12,2,"208904.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"475",316,"Amari'i","Bell","Bell",12,2,"165183.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"476",317,"Luke","Berry","Berry",12,3,"82738.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"477",318,"Reece","Burke","Burke",12,2,"156658.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"478",319,"Allan","Campbell","Campbell",12,3,"193195.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"479",320,"Jordan","Clark","Clark",12,3,"96784.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"480",321,"Alfie","Doughty","Doughty",12,2,"244262.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"481",322,"Luke","Freeman","Freeman",12,3,"49083.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"482",323,"Matt","Macey","Macey",12,1,"113534.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"483",324,"John","McAtee","McAtee",12,4,"422303.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"484",325,"Carlos","Mendes Gomes","Mendes",12,3,"453537.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"485",326,"Carlton","Morris","Morris",12,4,"156700.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"486",327,"Admiral","Muskwe","Muskwe",12,4,"174595.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"487",328,"Chiedozie","Ogbene","Ogbene",12,4,"229164.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"488",329,"Fred","Onyedinma","Onyedinma",12,3,"168035.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"489",330,"Gabriel","Osho","Osho",12,2,"199056.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"490",331,"Aribim","Pepple","Pepple",12,4,"490180.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"491",332,"Dion","Pereira","Pereira",12,3,"243532.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"492",333,"Dan","Potts","Potts",12,2,"108411.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"493",334,"Glen","Rea","Rea",12,3,"165152.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"494",335,"James","Shea","Shea",12,1,"77818.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"495",336,"Joe","Taylor","Taylor",12,4,"242500.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"496",337,"Elliot","Thorpe","Thorpe",12,3,"232477.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"497",338,"Jack","Walton","Walton",12,1,"207722.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"498",339,"Louie","Watson","Watson",12,3,"223333.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"499",340,"Cauley","Woodrow","Woodrow",12,4,"91046.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"500",393,"Teden","Mengi","Mengi",12,2,"244856.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"501",553,"Ryan","Giles","Giles",12,2,"232351.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"502",575,"Tom","Lockyer","Lockyer",12,2,"108796.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"503",582,"Pelly Ruddock","Mpanzu","Mpanzu",12,3,"104047.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"504",586,"Tahith","Chong","Chong",12,3,"222677.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"505",602,"Issa","Kaboré","Kaboré",12,2,"476369.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"506",614,"Thomas","Kaminski","Kaminski",12,1,"54738.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"507",630,"Ross","Barkley","Barkley",12,3,"88894.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"508",631,"Jacob","Brown","Brown",12,4,"242453.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"509",648,"Aidan","Francis-Clarke","Francis-Clarke",12,2,"552030.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"510",665,"Tim","Krul","Krul",12,1,"20480.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"511",682,"Joseph","Johnson","Johnson",12,2,"611011.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"512",727,"Andros","Townsend","Townsend",12,3,"60252.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"513",729,"Jayden","Luker","Luker",12,3,"608060.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"514",734,"Zack","Nelson","Nelson",12,3,"589114.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"515",798,"Daiki","Hashioka","Hashioka",12,2,"209293.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"516",831,"Axel","Piesold","Piesold",12,3,"547668.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"517",839,"Dominic","Dos Santos Martins","Martins",12,3,"647597.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"518",844,"Christian","Chigozie","Chigozie",12,2,"634640.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"519",848,"Taylan","Harris","Harris",12,4,"551995.jpg","Luton","LUT",2,1055,1090,1020,1060,1090,1120
+"520",341,"Manuel","Akanji","Akanji",13,2,"211975.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"521",342,"Nathan","Aké","Aké",13,2,"126184.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"522",343,"Julián","Álvarez","J.Alvarez",13,4,"461358.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"523",344,"Bernardo","Veiga de Carvalho e Silva","Bernardo",13,3,"165809.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"524",345,"Oscar","Bobb","Bobb",13,3,"477555.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"525",346,"João","Cancelo","Cancelo",13,2,"121145.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"526",347,"Scott","Carson","Carson",13,1,"17601.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"527",348,"Shea","Charles","Charles",13,3,"463210.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"528",349,"Kevin","De Bruyne","De Bruyne",13,3,"61366.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"529",350,"Rúben","Gato Alves Dias","Rúben",13,2,"171314.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"530",352,"Ederson","Santana de Moraes","Ederson M.",13,1,"121160.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"531",353,"Phil","Foden","Foden",13,3,"209244.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"532",354,"Jack","Grealish","Grealish",13,3,"114283.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"533",355,"Erling","Haaland","Haaland",13,4,"223094.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"534",356,"Mateo","Kovačić","Kovačić",13,3,"91651.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"535",357,"Aymeric","Laporte","Laporte",13,2,"146941.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"536",358,"Rico","Lewis","R.Lewis",13,2,"477064.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"537",359,"Riyad","Mahrez","Mahrez",13,3,"103025.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"538",361,"Stefan","Ortega Moreno","Ortega Moreno",13,1,"88248.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"539",363,"Máximo","Perrone","Perrone",13,3,"482769.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"540",365,"Rodrigo","Hernandez","Rodrigo",13,3,"220566.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"541",366,"Sergio","Gómez","Sergio Gómez",13,2,"437468.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"542",367,"Zack","Steffen","Steffen",13,1,"164484.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"543",368,"John","Stones","Stones",13,2,"97299.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"544",369,"Kyle","Walker","Walker",13,2,"58621.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"545",566,"Matheus Luiz","Nunes","Matheus N.",13,3,"465351.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"546",616,"Joško","Gvardiol","Gvardiol",13,2,"477424.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"547",678,"Jérémy","Doku","Doku",13,3,"248875.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"548",762,"Mahamadou","Susoho","Susoho",13,3,"496283.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"549",771,"Micah","Hamilton","Hamilton",13,3,"462438.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"550",814,"Jacob","Wright","Wright",13,3,"516250.jpg","Man City","MCI",5,1355,1365,1350,1360,1360,1370
+"551",209,"Mason","Mount","Mount",14,3,"184341.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"552",370,"Alex","Telles","Alex Telles",14,2,"152590.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"553",371,"Amad","Diallo","Amad",14,3,"493250.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"554",372,"Antony Matheus","dos Santos","Antony",14,3,"467169.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"555",373,"Bruno","Borges Fernandes","B.Fernandes",14,3,"141746.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"556",374,"Brandon","Williams","B.Williams",14,2,"232937.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"557",375,"Eric","Bailly","Bailly",14,2,"197365.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"558",376,"Carlos Henrique","Casimiro","Casemiro",14,3,"61256.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"559",377,"Diogo","Dalot Teixeira","Dalot",14,2,"216051.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"560",379,"Christian","Eriksen","Eriksen",14,3,"80607.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"561",380,"Álvaro","Fernández Carreras","Fernandez",14,2,"515501.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"562",381,"Frederico","Rodrigues de Paula Santos","Fred",14,3,"101582.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"563",382,"Alejandro","Garnacho","Garnacho",14,3,"493105.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"564",383,"Hannibal","Mejbri","Hannibal",14,3,"465527.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"565",384,"Tom","Heaton","Heaton",14,1,"21205.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"566",386,"Victor","Lindelöf","Lindelof",14,2,"184667.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"567",387,"Harry","Maguire","Maguire",14,2,"95658.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"568",388,"Kobbie","Mainoo","Mainoo",14,3,"516895.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"569",389,"Tyrell","Malacia","Malacia",14,2,"222690.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"570",390,"Anthony","Martial","Martial",14,4,"148225.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"571",391,"Lisandro","Martínez","Martinez",14,2,"221820.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"572",392,"Scott","McTominay","McTominay",14,3,"195851.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"573",394,"Facundo","Pellistri Rebollo","Pellistri",14,3,"488404.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"574",395,"Raphaël","Varane","R.Varane",14,2,"90152.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"575",396,"Marcus","Rashford","Rashford",14,3,"176297.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"576",397,"Jadon","Sancho","Sancho",14,3,"209243.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"577",398,"Luke","Shaw","Shaw",14,2,"106760.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"578",399,"Shola","Shoretire","Shoretire",14,4,"472464.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"579",400,"Donny","van de Beek","Van de Beek",14,3,"180184.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"580",401,"Aaron","Wan-Bissaka","Wan-Bissaka",14,2,"214590.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"581",597,"André","Onana","Onana",14,1,"202641.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"582",617,"Rasmus","Højlund","Højlund",14,4,"497894.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"583",632,"Omari","Forson","Forson",14,3,"487828.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"584",669,"Radek","Vítek","Vítek",14,1,"477733.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"585",685,"Daniel","Gore","Gore",14,3,"504598.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"586",695,"Altay","Bayindir","Altay",14,1,"451302.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"587",703,"Jonny","Evans","Evans",14,2,"37642.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"588",709,"Sofyan","Amrabat","Amrabat",14,3,"172912.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"589",748,"Joe","Hugill","Hugill",14,4,"515504.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"590",766,"Willy","Kambwala","Kambwala",14,2,"518466.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"591",768,"Rhys","Bennett","Bennett",14,2,"515500.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"592",826,"Toby","Collyer","Collyer",14,3,"490881.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"593",833,"Habeeb","Ogunneye","Ogunneye",14,2,"519325.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"594",835,"Dermot","Mee","Mee",14,1,"461537.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"595",846,"Harry","Amass","Amass",14,2,"577974.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"596",850,"Ethan","Wheatley","Wheatley",14,4,"575034.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"597",856,"Louis","Jackson","Jackson",14,2,"530117.jpg","Man Utd","MUN",3,1125,1220,1130,1210,1120,1230
+"598",204,"Lewis","Hall","Hall",15,2,"487838.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"599",402,"Miguel","Almirón Rejala","Almirón",15,3,"179018.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"600",403,"Elliot","Anderson","Anderson",15,3,"215379.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"601",404,"Harrison","Ashby","Ashby",15,2,"441024.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"602",405,"Sven","Botman","Botman",15,2,"220237.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"603",406,"Bruno","Guimarães Rodriguez Moura","Bruno G.",15,3,"208706.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"604",407,"Dan","Burn","Burn",15,2,"78916.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"605",408,"Karl","Darlow","Darlow",15,1,"59735.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"606",409,"Martin","Dubravka","Dubravka",15,1,"67089.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"607",410,"Ryan","Fraser","Fraser",15,3,"90105.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"608",411,"Mark","Gillespie","Gillespie",15,1,"81441.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"609",412,"Anthony","Gordon","Gordon",15,3,"232826.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"610",413,"Isaac","Hayden","Hayden",15,3,"153127.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"611",414,"Jeff","Hendrick","Hendrick",15,3,"83314.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"612",415,"Alexander","Isak","Isak",15,4,"219168.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"613",416,"Joelinton Cássio","Apolinário de Lira","Joelinton",15,3,"180974.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"614",417,"Emil","Krafth","Krafth",15,2,"111773.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"615",418,"Garang","Kuol","Kuol",15,3,"564510.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"616",419,"Jamaal","Lascelles","Lascelles",15,2,"101148.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"617",420,"Jamal","Lewis","J.Lewis",15,2,"194799.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"618",421,"Sean","Longstaff","Longstaff",15,3,"180135.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"619",422,"Javier","Manquillo Gaitán","Manquillo",15,2,"109528.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"620",423,"Jacob","Murphy","J.Murphy",15,3,"114243.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"621",424,"Nick","Pope","Pope",15,1,"98747.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"622",425,"Matt","Ritchie","Ritchie",15,3,"56983.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"623",426,"Allan","Saint-Maximin","Saint-Maximin",15,3,"170137.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"624",427,"Fabian","Schär","Schär",15,2,"119471.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"625",428,"Matt","Targett","Targett",15,2,"169359.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"626",429,"Sandro","Tonali","Tonali",15,3,"432422.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"627",430,"Kieran","Trippier","Trippier",15,2,"77794.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"628",431,"Kell","Watts","Watts",15,2,"232977.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"629",432,"Joe","Willock","Willock",15,3,"200089.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"630",433,"Callum","Wilson","Wilson",15,4,"75115.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"631",580,"Loris","Karius","Karius",15,1,"104542.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"632",581,"Paul","Dummett","Dummett",15,2,"106618.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"633",603,"Harvey","Barnes","Barnes",15,3,"201666.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"634",633,"Tino","Livramento","Livramento",15,2,"441191.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"635",634,"Alex","Murphy","A.Murphy",15,2,"545477.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"636",635,"Lewis","Miley","Miley",15,3,"547719.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"637",738,"Amadou","Diallo","Diallo",15,3,"248859.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"638",739,"Ben","Parkinson","Parkinson",15,4,"547716.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"639",745,"Michael","Ndiweni","Ndiweni",15,4,"490150.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"640",794,"Joe","White","White",15,3,"461484.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"641",795,"Travis","Hernes","Hernes",15,3,"592436.jpg","Newcastle","NEW",3,1105,1280,1050,1210,1160,1355
+"642",23,"Nuno","Varela Tavares","Tavares",16,2,"437626.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"643",28,"Matt","Turner","Turner",16,1,"224068.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"644",205,"Callum","Hudson-Odoi","Hudson-Odoi",16,3,"209046.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"645",378,"Anthony","Elanga","Elanga",16,3,"449434.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"646",434,"Brandon","Aguilera Zamora","B.Aguilera",16,3,"461682.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"647",435,"Harry","Arter","Arter",16,3,"48615.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"648",436,"Serge","Aurier","Aurier",16,2,"80226.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"649",437,"Taiwo","Awoniyi","Awoniyi",16,4,"210156.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"650",438,"Giulian","Biancone","Biancone",16,2,"437753.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"651",439,"Willy","Boly","Boly",16,2,"90585.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"652",440,"Josh","Bowler","Bowler",16,3,"245830.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"653",441,"Steve","Cook","Cook",16,2,"56917.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"654",442,"Danilo","dos Santos de Oliveira","Danilo",16,3,"513046.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"655",443,"Emmanuel","Dennis","Dennis",16,4,"230251.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"656",444,"Mohamed","Dräger","Dräger",16,2,"173399.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"657",445,"Felipe Augusto","de Almeida Monteiro","Felipe",16,2,"116404.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"658",446,"Remo","Freuler","Freuler",16,3,"89076.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"659",447,"Morgan","Gibbs-White","Gibbs-White",16,3,"222531.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"660",448,"Wayne","Hennessey","Hennessey",16,1,"20066.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"661",449,"Ethan","Horvath","Horvath",16,1,"168547.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"662",451,"Cheikhou","Kouyaté","Kouyaté",16,3,"55037.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"663",452,"Richie","Laryea","Laryea",16,2,"221403.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"664",453,"Orel","Mangala","Mangala",16,3,"179519.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"665",454,"Loïc","Mbe Soh","Mbe Soh",16,2,"242885.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"666",455,"Scott","McKenna","McKenna",16,2,"168281.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"667",456,"Alex","Mighten","Mighten",16,3,"244930.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"668",457,"Moussa","Niakhaté","Niakhaté",16,2,"199170.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"669",458,"Lewis","O'Brien","O'Brien",16,3,"243345.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"670",459,"Braian","Ojeda Rodríguez","Ojeda",16,3,"437476.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"671",460,"Jonathan","Panzo","Panzo",16,2,"209035.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"672",461,"Omar","Richards","O.Richards",16,2,"204822.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"673",462,"Gustavo Henrique","Furtado Scarpa","G.Scarpa",16,3,"185253.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"674",463,"Jonjo","Shelvey","J.Shelvey",16,3,"50232.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"675",464,"Sam","Surridge","Surridge",16,4,"217331.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"676",465,"Harry","Toffolo","Toffolo",16,2,"114241.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"677",466,"Hwang","Ui-jo","Ui-jo",16,4,"201440.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"678",467,"Neco","Williams","Williams",16,2,"215136.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"679",468,"Chris","Wood","Wood",16,4,"60689.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"680",469,"Joe","Worrall","Worrall",16,2,"208912.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"681",470,"Ryan","Yates","Yates",16,3,"204968.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"682",604,"Olu","Aina","Aina",16,2,"159506.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"683",636,"George","Shelvey","G.Shelvey",16,1,"450197.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"684",637,"Josh","Powell","Powell",16,2,"547659.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"685",679,"Gonzalo","Montiel","G.Montiel",16,2,"218430.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"686",696,"Murillo","Santiago Costa dos Santos","Murillo",16,2,"575476.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"687",710,"Odysseas","Vlachodimos","Odysseas",16,1,"111452.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"688",711,"Andrew","Omobamidele","Omobamidele",16,2,"466404.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"689",712,"Nicolás","Domínguez","Dominguez",16,3,"250199.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"690",713,"Ibrahim","Sangaré","Sangaré",16,3,"210462.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"691",714,"Divock","Origi","Origi",16,4,"152760.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"692",779,"Jamie","McDonnell","McDonnell",16,3,"524070.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"693",780,"Detlef Esapa","Osong","Osong",16,4,"536677.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"694",781,"Joe","Gardner","Gardner",16,4,"536681.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"695",801,"Giovanni","Reyna","Reyna",16,3,"427420.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"696",808,"Matz","Sels","Sels",16,1,"85633.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"697",809,"Rodrigo","Duarte Ribeiro","Ribeiro",16,4,"551232.jpg","Nott'm Forest","NFO",3,1065,1100,1050,1125,1080,1080
+"698",27,"Auston","Trusty","Trusty",17,2,"201410.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"699",33,"Cameron","Archer","Archer",17,4,"433979.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"700",255,"Mason","Holgate","Holgate",17,2,"194164.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"701",360,"James","McAtee","McAtee",17,3,"432714.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"702",471,"Anel","Ahmedhodžić","Ahmedhodžić",17,2,"233821.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"703",472,"Jordan","Amissah","Amissah",17,1,"538206.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"704",473,"George","Baldock","Baldock",17,2,"82691.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"705",474,"Chris","Basham","Basham",17,2,"40386.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"706",476,"Jayden","Bogle","Bogle",17,2,"226182.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"707",477,"Rhian","Brewster","Brewster",17,4,"195473.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"708",478,"Ismaila","Coulibaly","Coulibaly",17,3,"476938.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"709",479,"Adam","Davies","A.Davies",17,1,"102549.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"710",480,"John","Egan","Egan",17,2,"108416.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"711",481,"John","Fleck","Fleck",17,3,"47247.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"712",482,"Wes","Foderingham","Foderingham",17,1,"82143.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"713",483,"Daniel","Jebbison","Jebbison",17,4,"523700.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"714",484,"Max","Lowe","Lowe",17,2,"155197.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"715",485,"Oliver","McBurnie","McBurnie",17,4,"169432.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"716",486,"Iliman","Ndiaye","Ndiaye",17,4,"440993.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"717",487,"Rhys","Norrington-Davies","Norrington-Davies",17,2,"443211.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"718",488,"Oliver","Norwood","Norwood",17,3,"79934.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"719",489,"Ben","Osborn","Osborn",17,3,"167878.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"720",490,"William","Osula","Osula",17,4,"538207.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"721",576,"Jack","Robinson","Robinson",17,2,"83427.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"722",587,"Anis","Slimane","Slimane",17,3,"504198.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"723",592,"Yasser","Larouci","Larouci",17,2,"432990.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"724",593,"Bénie","Traoré","T.Bénie",17,4,"523957.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"725",638,"Vini","de Souza Costa","Vini Souza",17,3,"424001.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"726",653,"Femi","Seriki","Seriki",17,2,"471848.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"727",654,"Louie","Marsh","Marsh",17,4,"532377.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"728",655,"Andre","Brooks","Brooks",17,3,"538210.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"729",656,"Antwoine","Hackford","Hackford",17,4,"487836.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"730",663,"Gustavo","Hamer","Hamer",17,3,"196100.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"731",666,"Tom","Davies","T.Davies",17,3,"173807.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"732",693,"Luke","Thomas","Thomas",17,2,"244619.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"733",730,"Ryan","Oné","Oné",17,3,"585472.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"734",731,"Jili","Buyabu","Buyabu",17,2,"601496.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"735",759,"Sydie","Peck","Peck",17,3,"552425.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"736",775,"Ben","Brereton","Brereton Díaz",17,3,"204814.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"737",790,"Ivo","Grbic","Grbić",17,1,"173268.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"738",822,"Billy","Blacker","Blacker",17,4,"591539.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"739",823,"Oliver","Arblaster","Arblaster",17,3,"532372.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"740",827,"Dovydas","Sasnauskas","Sasnauskas",17,2,"616094.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"741",828,"Sam","Curtis","Curtis",17,2,"549344.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"742",857,"Owen","Hampson","Hampson",17,3,"591538.jpg","Sheffield Utd","SHU",2,1030,1040,1045,1020,1020,1060
+"743",450,"Brennan","Johnson","Johnson",18,3,"242898.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"744",491,"Brandon","Austin","Austin",18,1,"214572.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"745",492,"Rodrigo","Bentancur","Bentancur",18,3,"202993.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"746",493,"Yves","Bissouma","Bissouma",18,3,"227127.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"747",494,"Bryan","Gil Salvatierra","Bryan",18,3,"436234.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"748",495,"Ben","Davies","Davies",18,2,"115556.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"749",496,"Eric","Dier","Dier",18,2,"93264.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"750",497,"Emerson","Leite de Souza Junior","E.Royal",18,2,"241157.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"751",498,"Fraser","Forster","Forster",18,1,"40383.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"752",499,"Pierre-Emile","Højbjerg","Højbjerg",18,3,"132015.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"753",500,"Harry","Kane","Kane",18,4,"78830.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"754",501,"Dejan","Kulusevski","Kulusevski",18,3,"445044.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"755",502,"Hugo","Lloris","Lloris",18,1,"37915.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"756",503,"Giovani","Lo Celso","Lo Celso",18,3,"200826.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"757",504,"James","Maddison","Maddison",18,3,"172780.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"758",505,"Tanguy","Ndombélé Alvaro","Ndombele",18,3,"231372.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"759",506,"Pedro","Porro","Pedro Porro",18,2,"441164.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"760",507,"Ivan","Perišić","Perišić",18,2,"45034.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"761",509,"Richarlison","de Andrade","Richarlison",18,3,"212319.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"762",510,"Joe","Rodon","Rodon",18,2,"214225.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"763",511,"Cristian","Romero","Romero",18,2,"221632.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"764",512,"Davinson","Sánchez","Sánchez",18,2,"173904.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"765",513,"Pape Matar","Sarr","Sarr",18,3,"482442.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"766",514,"Ryan","Sessegnon","Sessegnon",18,2,"184349.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"767",515,"Oliver","Skipp","Skipp",18,3,"209042.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"768",516,"Son","Heung-min","Son",18,3,"85971.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"769",517,"Djed","Spence","Spence",18,2,"232859.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"770",518,"Japhet","Tanganga","Tanganga",18,2,"199584.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"771",519,"Destiny","Udogie","Udogie",18,2,"487053.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"772",520,"Guglielmo","Vicario","Vicario",18,1,"184254.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"773",521,"Alfie","Whiteman","Whiteman",18,1,"175941.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"774",583,"Manor","Solomon","Solomon",18,3,"235674.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"775",639,"Micky","van de Ven","Van de Ven",18,2,"491279.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"776",640,"Dane","Scarlett","Scarlett",18,4,"490145.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"777",641,"Alejo","Véliz","Veliz",18,4,"536908.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"778",702,"Ashley","Phillips","Phillips",18,2,"548308.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"779",722,"Jamie","Donley","Donley",18,4,"513588.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"780",740,"Alfie","Dorrington","Dorrington",18,2,"519321.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"781",754,"Yago","de Santiago Alonso","Yago Santiago",18,3,"492779.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"782",776,"Timo","Werner","Werner",18,4,"165153.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"783",777,"Radu","Dragusin","Drăgușin",18,2,"493125.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"784",860,"Mikey","Moore","Moore",18,3,"499721.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"785",862,"Tyrese","Hall","Hall",18,3,"563934.jpg","Spurs","TOT",4,1170,1230,1110,1150,1230,1310
+"786",364,"Kalvin","Phillips","Phillips",19,3,"155405.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"787",522,"Nayef","Aguerd","N.Aguerd",19,2,"210494.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"788",523,"Michail","Antonio","Antonio",19,4,"57531.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"789",524,"Alphonse","Areola","Areola",19,1,"84182.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"790",525,"Saïd","Benrahma","Benrahma",19,3,"172841.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"791",526,"Jarrod","Bowen","Bowen",19,3,"178186.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"792",527,"Maxwel","Cornet","Cornet",19,3,"149519.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"793",528,"Vladimír","Coufal","Coufal",19,2,"164555.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"794",529,"Conor","Coventry","Coventry",19,3,"222017.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"795",530,"Aaron","Cresswell","Cresswell",19,2,"55459.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"796",531,"Flynn","Downes","Downes",19,3,"220585.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"797",532,"Emerson","Palmieri dos Santos","Emerson",19,2,"109533.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"798",533,"Lukasz","Fabianski","Fabianski",19,1,"37096.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"799",534,"Pablo","Fornals Malla","P.Fornals",19,3,"217593.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"800",535,"Danny","Ings","Ings",19,4,"84939.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"801",536,"Ben","Johnson","Johnson",19,2,"222018.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"802",537,"Thilo","Kehrer","Kehrer",19,2,"201057.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"803",538,"Divin","Mubama","Mubama",19,4,"487837.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"804",539,"Lucas","Tolentino Coelho de Lima","L.Paquetá",19,3,"224024.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"805",541,"Gianluca","Scamacca","Scamacca",19,4,"195899.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"806",542,"Tomáš","Souček","Souček",19,3,"215439.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"807",543,"Nikola","Vlašić","Vlašić",19,3,"180151.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"808",544,"Kurt","Zouma","Zouma",19,2,"103192.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"809",577,"Angelo","Ogbonna","Ogbonna",19,2,"40669.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"810",642,"Edson","Álvarez Velázquez","Álvarez",19,3,"213999.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"811",647,"Joseph","Anang","Anang",19,1,"447879.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"812",664,"James","Ward-Prowse","Ward-Prowse",19,3,"101178.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"813",676,"Konstantinos","Mavropanos","Mavropanos",19,2,"233963.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"814",689,"Mohammed","Kudus","Kudus",19,3,"460842.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"815",773,"Lewis","Orford","Orford",19,3,"518442.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"816",774,"Kaelan","Casey","Casey",19,2,"518438.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"817",784,"Oliver","Scarles","Scarles",19,2,"536109.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"818",785,"Callum","Marshall","Marshall",19,4,"565431.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"819",829,"George","Earthy","Earthy",19,3,"490885.jpg","West Ham","WHU",3,1100,1145,1055,1140,1150,1150
+"820",351,"Tommy","Doyle","Doyle",20,3,"220394.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"821",545,"Rayan","Aït-Nouri","Aït-Nouri",20,2,"448514.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"822",546,"Daniel","Bentley","Bentley",20,1,"79602.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"823",547,"Bendegúz","Bolla","Bolla",20,2,"431960.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"824",548,"Hugo","Bueno López","H.Bueno",20,2,"490721.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"825",549,"Francisco Jorge","Tomás Oliveira","Chiquinho",20,3,"510363.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"826",550,"Luke","Cundle","Cundle",20,3,"245923.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"827",551,"Craig","Dawson","Dawson",20,2,"60232.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"828",552,"Fábio","Silva","Fábio Silva",20,4,"449988.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"829",554,"Gonçalo Manuel","Ganchinho Guedes","Guedes",20,3,"181284.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"830",555,"Joe","Hodge","Hodge",20,3,"240299.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"831",556,"Ki-Jana","Hoever","Hoever",20,2,"441271.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"832",557,"Hwang","Hee-chan","Hee Chan",20,3,"184754.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"833",559,"João Victor","Gomes da Silva","João Gomes",20,3,"448089.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"834",560,"Jonathan","Castro Otto","J.Otto",20,2,"114128.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"835",561,"Bruno","Cavaco Jordão","Jordão",20,3,"428610.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"836",562,"Sasa","Kalajdzic","Kalajdžić",20,4,"429414.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"837",563,"Max","Kilman","Kilman",20,2,"214048.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"838",564,"Tom","King","King",20,1,"138001.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"839",565,"Mario","Lemina","Mario Jr.",20,3,"151086.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"840",567,"Pedro","Lomba Neto","Neto",20,3,"247632.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"841",568,"Daniel","Castelo Podence","Podence",20,3,"200600.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"842",569,"José","Malheiro de Sá","José Sá",20,1,"149065.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"843",570,"Pablo","Sarabia","Sarabia",20,3,"88484.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"844",571,"Matija","Šarkić","Šarkić",20,1,"216208.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"845",572,"Nélson","Cabral Semedo","N.Semedo",20,2,"200402.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"846",573,"Toti António","Gomes","Toti",20,2,"510362.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"847",574,"Boubacar","Traoré","Boubacar Traore",20,3,"476502.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"848",590,"Matheus","Santos Carneiro Da Cunha","Cunha",20,4,"430871.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"849",598,"Matt","Doherty","Doherty",20,2,"87835.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"850",697,"Santiago","Bueno","S.Bueno",20,2,"231480.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"851",698,"Enso","González","González",20,3,"593001.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"852",704,"Nathan","Fraser","Fraser",20,4,"531363.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"853",715,"Jean-Ricner","Bellegarde","Bellegarde",20,3,"231057.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"854",749,"Matthew","Whittingham","Whittingham",20,3,"483398.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"855",750,"Tawanda","Chirewa","Chirewa",20,3,"497606.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"856",751,"Justin","Hubner","Hubner",20,2,"504750.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"857",769,"Owen","Hesketh","Hesketh",20,3,"432712.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"858",770,"Ty","Barnett","Barnett",20,3,"490095.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"859",787,"Harvey","Griffiths","Griffiths",20,3,"449133.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"860",788,"Yerson","Mosquera","Mosquera",20,2,"501837.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"861",800,"Noha","Lemina","N.Lemina",20,3,"550833.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"862",832,"Wesley","Okoduwa","Okoduwa",20,2,"613467.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"863",836,"Leon","Chiwome","Chiwome",20,4,"589507.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"864",840,"Fletcher","Holman","Holman",20,4,"602934.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
+"865",853,"Temple","Ojinnaka","Ojinnaka",20,3,"514362.jpg","Wolves","WOL",3,1100,1100,1085,1105,1115,1100
