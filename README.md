@@ -3,6 +3,7 @@
 An interactive **R Shiny web application** for visualising and analysing Fantasy Premier League (FPL) data.
 This dashboard provides detailed insights into player performance, team trends, transfers, ownership, and mini-league comparisons — all in one place.
 
+The app has been deployed to *shinyapps.io* and can be found [here](https://andypetes.shinyapps.io/Test_Mobile/)
 ---
 
 ## 🚀 Features
@@ -188,7 +189,7 @@ You can host this app locally via `runApp()`
 *Data Scientist & Visualiser*
 Transforming complex football data into clear, actionable insights.
 
-* 🌍 [Portfolio Website](https://andypeters94.quarto.pub/andrew-peters-background/)
+* 🌍 [Portfolio Website](https://andypetes94.github.io/portfolio-andrewpeters/)
 * 🐦 [Twitter](https://x.com/data_vizard_)
 * 💼 [LinkedIn](http://linkedin.com/in/andrew-peters-phd-70b58292)
 * 📊 [GitHub](https://github.com/andypetes94)
