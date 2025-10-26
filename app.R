@@ -49,7 +49,7 @@ library(readr)
 #library(gganimate)
 #library(gifski)
 
-loadfonts(device = "pdf")
+#loadfonts(device = "pdf")
 
 
 mytheme <- create_theme(
@@ -83,28 +83,6 @@ c('#E9EDF0','#B7C6CF','#758D99','#3F5661')
 c('#87274d','#bb5434','#347aad','#152a56','#277b8e','#f4a362')
 
 scatter_variables <- c("Value","Goals","xG Percentile","xG Value","Assists","xA Percentile","xA Value","xG+xA Percentile","xG+xA Value","G+A Percentile","G+A","Mins Played","Bonus Points","xG Conceded","Total Points Percenitle","Total Points","Defensive Contributions","DEFCON")
-
-#app_config <- config::get()
-
-#global_sessions_config(
-#polished_config(
-#  app_name = "FPL_App",
-#  api_key = "6D3HPk6cyw2rHGo9YKo8t0jKmW4BXZPXFP"
-#  #api_key = "TeStKeY"
-#  #api_key = "nUMCGw5nhGwL2w8L7yQkdAbdKgx2JLqtrh"
-#)
-
-## define some basic credentials (on data.frame)
-#credentials <- data.frame(
-#  user = c("shiny", "shinymanager"), # mandatory
-#  password = c("apeters", "12345"), # mandatory
-#  #start = c("2019-04-15"), # optinal (all others)
-#  #expire = c(NA, "2019-12-31"),
-#  #admin = c(FALSE, TRUE),
-#  comment = "Simple and secure authentification mechanism 
-#  for single ‘Shiny’ applications.",
-#  stringsAsFactors = FALSE
-#)
 
 
 ######################
@@ -145,7 +123,7 @@ General_History <- read.csv('./25_26/General_Info.csv')
 
 Fixtures <- read.csv('./25_26/Fixtures.csv')
 
-Team_Summary <- read.csv('./25_26/Team_Summary.csv')
+#Team_Summary <- read.csv('./25_26/Team_Summary.csv')
 
 #team_id <- '110079'
 #team_id <- '18148'
@@ -165,7 +143,7 @@ prediction_vector <- c(32,33,34,35,36,37,38)
 
 short_team_vec <- c("ARS","AVL","BHA","BOU","BRE","BUR","CHE","CRY","EVE","FUL","LIV","LUT","MCI","MUN","NEW","NFO","SHU","TOT","WHU","WOL")
 
-prediction_path <- './fplreview_1712224410.csv'
+#prediction_path <- './fplreview_1712224410.csv'
 
 ## Sidebar content
 
