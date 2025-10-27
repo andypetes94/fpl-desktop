@@ -7,9 +7,8 @@
 #    http://shiny.rstudio.com/
 #
 
-
-#setwd("C:/Users/apeters/Desktop/External_Images/FPL/App/")
-#setwd("/Users/andrewpeters/Desktop/Shiny_Apps/Old_FPL")
+options(encoding = "UTF-8")
+Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 options(scipen=10000)
 #set_config(use_proxy(url="10.3.100.207",port=8080))
 

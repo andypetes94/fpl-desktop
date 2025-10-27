@@ -7,6 +7,39 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
 
+
+```{r}
+library(readr)
+
+# Path to your Shiny app folder
+app_dir <- "~/Desktop/Shiny_Apps/Old_FPL/25_26/"
+
+# List common text-based files
+files <- list.files(
+  app_dir,
+  pattern = "\\.(R|r|Rmd|csv|tsv|txt|json|html|md)$",
+  recursive = TRUE,
+  full.names = TRUE
+)
+
+# Check encoding for each file
+encodings <- lapply(files, function(f) {
+  enc <- readr::guess_encoding(f, n_max = 1000)  # inspect first 1000 bytes
+  data.frame(
+    file = f,
+    encoding = enc$encoding[1],
+    confidence = enc$confidence[1],
+    stringsAsFactors = FALSE
+  )
+})
+
+encodings_df <- do.call(rbind, encodings)
+encodings_df
+
+```
+
+
+
 ```{r}
 
 team_id <- '18148'
