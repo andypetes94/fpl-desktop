@@ -5,6 +5,8 @@ account: andypetes
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11005039
-bundleId: 11088311
+bundleId: 11088494
 url: https://andypetes.shinyapps.io/FPL_App2/
 version: 1
+asMultiple: FALSE
+asStatic: FALSE

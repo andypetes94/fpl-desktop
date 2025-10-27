@@ -614,7 +614,8 @@ rank_calculations <- function(teamid, Gameweeks) {
 rank_percentile_plot <- function(data, small_df2, Names1, Breaks1) {
   
   p <- ggplot(data, aes(x = event, y = rank_percentile, color = as.factor(movement), fill = as.factor(movement))) +
-    geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = event - 0.4, xmax = event + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_segment(aes(x = event, xend = event, y = 50, yend = rank_percentile, color = as.factor(movement)), size = 3, show.legend = F) +
     geom_hline(yintercept = 50, color = "gray60", size = 1.25) +
     geom_point(shape = 21, stroke = 1.5, size = 6, color = "#F3E9E2") +
@@ -683,7 +684,8 @@ rank_percentile_plot <- function(data, small_df2, Names1, Breaks1) {
 rank_plot <- function(data, small_df2, Names1, Breaks1) {
   
   p <- ggplot(data, aes(x = event, y = overall_rank)) +
-    geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = event - 0.4, xmax = event + 0.4, ymin = 0, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = "gray", alpha = 0.6) +
     geom_borderline(color = "gray60", size = 2, bordercolour = "#F3E9E2", borderwidth = 0.5, show.legend = F) +
     geom_point(aes(fill = movement), shape = 21, stroke = 1, size = 7, color = "#F3E9E2") +
@@ -749,7 +751,8 @@ rank_plot <- function(data, small_df2, Names1, Breaks1) {
 bench_points <- function(data, small_df2, Names1, Breaks1) {
   
   p <- ggplot(data, aes(x = event, y = points_on_bench, color = as.factor(movement), fill = as.factor(movement))) +
-    geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = event), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = event - 0.4, xmax = event + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_segment(aes(x = event, xend = event, y = 0, yend = points_on_bench, color = as.factor(movement)), size = 3, show.legend = F) +
     #scale_color_gradient2(low = "red", mid = "yellow", high = "green", midpoint = 6) +
     #new_scale_color() +
@@ -885,7 +888,8 @@ captaincy_points_text <- function(data, small_df2, round1, gw) {
   #captaincy_points <- function(data) {
   
   p <- ggplot(data %>% filter(played_captain == "Yes") %>% mutate(line_color = lead(total_points)), aes(x = reorder(GW_Chip, round), y = total_points)) +
-    geom_vline(data = small_df2, aes(xintercept = round), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = round), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = round - 0.4, xmax = round + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_segment(aes(x = round, xend = round, y = 0, yend = total_points, color = as.factor(captaincy)), size = 3, show.legend = F) +
     geom_point(aes(color = as.factor(captaincy), fill = as.factor(captaincy)), shape = 21, stroke = 1.5, size = 6, color = "#F3E9E2") +
     geom_text(aes(label = total_points), size = 2.2, family = "Lato", color = "white") +
@@ -1375,7 +1379,8 @@ transfer_plot1 <- function(transfer_df, small_df2, Names1, Breaks1, tester_df) {
   
   
   ggplot(transfer_df, aes(x = Gameweek, y = value, color = as.factor(Points), fill = as.factor(Points))) +
-    geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_borderline(data = tester_df, aes(Group = as.factor(Points)), size = 2, bordercolour = "#F3E9E2", borderwidth = 0.5, show.legend = F) +
     geom_point(shape = 21, stroke = 1, size = 7, color = "#F3E9E2") +
     geom_text(aes(label = value), size = 1.8, fontface = "bold", family = "Roboto", color = "white") +
@@ -1436,7 +1441,8 @@ transfer_plot1 <- function(transfer_df, small_df2, Names1, Breaks1, tester_df) {
 transfer_plot2 <- function(transfer_df, small_df2, id, Names1, Breaks1) {
   
   ggplot(transfer_df, aes(x = Gameweek, y = `Points Difference After Hits`, color = as.factor(movement), fill = as.factor(movement))) +
-    geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+    #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+    geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
     geom_segment(aes(x = Gameweek, xend = Gameweek, y = 0, yend = `Points Difference After Hits`), size = 3, show.legend = F) +
     geom_hline(yintercept = 0, color = "gray60", size = 1.25) +
     geom_point(shape = 21, stroke = 1.25, size = 6, color = "#F3E9E2") +

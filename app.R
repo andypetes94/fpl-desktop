@@ -1940,7 +1940,9 @@ server <- function(input, output, session) {
       group_by(round) %>%
       summarise(chip = unique(chip)) %>%
       ungroup() %>%
-      filter(!is.na(chip))
+      filter(!is.na(chip)) %>%
+      mutate(GW_Chip = NA,
+             total_points = NA)
     
     #maxi <- 10
     #for (i in 1:maxi) {
@@ -3322,7 +3324,8 @@ server <- function(input, output, session) {
       filter(!is.na(chip))
     
     p <- ggplot(small_df, aes(x = Gameweek, y = cum_transfers)) +
-      geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+      #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+      geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
       geom_step(linewidth = 1, color = '#006BA2') +
       geom_point(shape = 21, color = "#F3E9E2", fill = '#006BA2', size = 5, stroke = 1) +
       #geom_shadowtext(aes(x = 17, y = 30), label = "WC", size = 3, fontface = "bold", family = "Roboto", color = "white", bg.colour = "#F3E9E2", bg.r = 0.05) +
@@ -3445,7 +3448,8 @@ server <- function(input, output, session) {
         filter(!is.na(chip))
       
       p <- ggplot(small_df, aes(x = Gameweek, y = cum_transfers)) +
-        geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+        #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+        geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
         geom_step(linewidth = 1, color = "#3288BD") +
         geom_point(shape = 21, color = "#F3E9E2", fill = "#3288BD", size = 5, stroke = 1) +
         #geom_shadowtext(aes(x = 17, y = 30), label = "WC", size = 3, fontface = "bold", family = "Roboto", color = "white", bg.colour = "#F3E9E2", bg.r = 0.05) +
@@ -3575,7 +3579,8 @@ server <- function(input, output, session) {
     }
     
     p <- ggplot(small_df, aes(x = Gameweek, y = transfers, color = transfer_type, fill = transfer_type)) +
-      geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+      #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+      geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
       geom_segment(aes(x = Gameweek, xend = Gameweek, y = 0, yend = transfers), size = 3) +
       geom_hline(yintercept = 0, color = "gray60", size = 1.25) +
       geom_point(shape = 21, color = "#F3E9E2", size = 6, stroke = 1.5) +
@@ -3720,7 +3725,8 @@ server <- function(input, output, session) {
       }
       
       p <- ggplot(small_df, aes(x = Gameweek, y = transfers, color = transfer_type, fill = transfer_type)) +
-        geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+        #geom_vline(data = small_df2, aes(xintercept = Gameweek), color = "lightgray", size = 9) +
+        geom_rect(data = small_df2, aes(xmin = Gameweek - 0.4, xmax = Gameweek + 0.4, ymin = -Inf, ymax = Inf), fill = "lightgray", color = NA, show.legend = F) +
         geom_segment(aes(x = Gameweek, xend = Gameweek, y = 0, yend = transfers), size = 3) +
         geom_hline(yintercept = 0, color = "gray60", size = 1.25) +
         geom_point(shape = 21, color = "#F3E9E2", size = 6, stroke = 1.5) +
