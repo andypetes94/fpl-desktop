@@ -306,272 +306,468 @@ player_points_plot1 <- function(data, starts_1, gameweeks_1, gameweeks_2, player
 
 }
   
+# create_table1 <- function(data, positions, gameweeks_1, gameweeks_2, starts_1, calculations, v) {
+# 
+#   
+#   data %>%
+#   # Get Link to Photos
+#   separate_wider_delim(photo, ".", names = c("image_id", "image_type")) %>%
+#   mutate(player_images = paste0('https://resources.premierleague.com/premierleague25/photos/players/110x140/',image_id,'.png')) %>%
+#   mutate(DEFCON = case_when(Position == "DEF" & defensive_contribution >= 10 ~ 2,
+#                               Position == "MID" & defensive_contribution >= 12 ~ 2,
+#                               Position == "ST" & defensive_contribution >= 12 ~ 2,
+#                               T ~ 0)) %>%
+#   # Filter Positions
+#   filter(Position %in% positions) %>%
+#   # Filter Gameweeks
+#   filter(round >= gameweeks_1 & round <= gameweeks_2) %>%
+#   group_by(name_club, short_team_name) %>%
+#   mutate(game = n()) %>%
+#     nest() %>%
+#     mutate(games = map(.x = data, ~ first(.x$game)),
+#            Value = map(.x = data, ~ last(.x$value)),
+#            starts = map(.x = data, ~ sum(.x$starts)),
+#            mins = map(.x = data, ~ sum(.x$minutes)),
+#            t_points = map(.x = data, ~ sum(.x$total_points)),
+#            cs = map(.x = data, ~ sum(as.numeric(.x$total_xg_conceded))),
+#            s = map(.x = data, ~ sum(.x$saves)),
+#            g = map(.x = data, ~ sum(.x$goals_scored)),
+#            a = map(.x = data, ~ sum(.x$assists)),
+#            xg = map(.x = data, ~ sum(.x$expected_goals)),
+#            xa = map(.x = data, ~ sum(.x$expected_assists)),
+#            dc = map(.x = data, ~ sum(.x$defensive_contribution)),
+#            defcon = map(.x = data, ~ sum(.x$DEFCON)),
+#            image = map(.x = data, ~ unique(.x$player_images)),
+#            xgi = map(.x = data, ~ sum(.x$expected_goal_involvements)),
+#            b = map(.x = data, ~ sum(.x$bps))) %>%
+#     select(-data) %>%
+#     mutate(Value = as.numeric(Value) / 10) %>%
+#     # Filter Value
+#     filter(Value <= v) %>%
+#     unnest(cols = c(games, Value, starts, mins,t_points, cs, s, g, a, xg, xa, xgi, b, image, dc, defcon)) %>%
+#     as.data.frame() %>%
+#     mutate(ga = g + a) %>%
+#     # Per Game
+#     mutate(t_points_pg = round(t_points / games, digits = 2),
+#            cs_pg = round(cs / games, digits = 2),
+#            s_pg = round(s / games, digits = 2),
+#            g_pg = round(g / games, digits = 2),
+#            a_pg = round(a / games, digits = 2),
+#            xg_pg = round(xg / games, digits = 2),
+#            xa_pg = round(xa / games, digits = 2),
+#            xgi_pg = round(xgi /games, digits = 2),
+#            ga_pg = round(ga /games, digits = 2),
+#            dc_pg = round(dc /games, digits = 2),
+#            defcon_pg = round(defcon /games, digits = 2),
+#            b_pg = round(b / games, digits = 2)) %>%
+#     # Per 90
+#     mutate(xg_90 = (xg / mins) *90,
+#            cs_90 = (cs / mins) *90,
+#            s_90 = (s / mins) *90,
+#            xa_90 = (xa / mins) *90,
+#            xgi_90 = (xgi / mins) *90,
+#            b_90 = (b / mins) *90,
+#            g_90 = (g / mins) *90,
+#            a_90 = (a / mins) *90,
+#            t_points_90 = (t_points / mins) *90,
+#            dc_90 = (dc / mins) *90,
+#            defcon_90 = (defcon / mins) *90,
+#            ga_90 = (ga / mins) *90) %>%
+#     # filter by starts
+#     filter(starts >= starts_1) %>%
+#     {if(calculations == "Total" && nrow(.) <= 100) 
+#       mutate(., xGoals = (ntile(xg,100) / n())*100,
+#              xAssists = (ntile(xa,100) / n())*100,
+#              Saves = (ntile(s,100) / n())*100,
+#              `Clean Sheets` = 100 - ((ntile(cs,100) / n())*100),
+#              `xG+xA` = (ntile(xgi,100) / n())*100,
+#              Bonus = (ntile(b,100) / n())*100,
+#              Goals = (ntile(g,100) / n())*100,
+#              Assists = (ntile(a,100) / n())*100,
+#              `Total Points` = (ntile(t_points,100) / n())*100,
+#              `Defensive Contributions` = (ntile(dc,100) / n())*100,
+#              DEFCON = (ntile(defcon,100) / n())*100,
+#              cs = round(cs, digits = 2),
+#              g = round(g, digits = 2),
+#              a = round(a, digits = 2),
+#              xg = round(xg, digits = 2),
+#              xa = round(xa, digits = 2),
+#              xgi = round(xgi, digits = 2),
+#              dc = round(dc, digits = 2),
+#              defcon = round(defcon, digits = 2),
+#              b = round(b, digits = 2),
+#              t_points = round(t_points, digits = 2),
+#              ga = round(ga, digits = 2),
+#              `G+A` = (ntile(ga,100) / n())*100)
+#       else if (calculations == "Total" && nrow(.) > 100) 
+#         mutate(., xGoals = ntile(xg,100),
+#                xAssists = ntile(xa,100),
+#                Saves = ntile(s,100),
+#                `Clean Sheets` = 100 - (ntile(cs,100)),
+#                `xG+xA` = ntile(xgi,100),
+#                Bonus = ntile(b,100),
+#                Goals = ntile(g,100),
+#                Assists = ntile(a,100),
+#                `Total Points` = ntile(t_points,100),
+#                `Defensive Contributions` = ntile(dc,100),
+#                DEFCON = ntile(defcon,100),
+#                cs = round(cs, digits = 2),
+#                g = round(g, digits = 2),
+#                a = round(a, digits = 2),
+#                xg = round(xg, digits = 2),
+#                xa = round(xa, digits = 2),
+#                xgi = round(xgi, digits = 2),
+#                dc = round(dc, digits = 2),
+#                defcon = round(defcon, digits = 2),
+#                b = round(b, digits = 2),
+#                t_points = round(t_points, digits = 2),
+#                ga = round(ga, digits = 2),
+#                `G+A` = ntile(ga,100))
+#       else if(calculations == "Per Game" && nrow(.) <= 100) 
+#         mutate(., xGoals = (ntile(xg_pg,100) / n())*100,
+#                xAssists = (ntile(xa_pg,100) / n())*100,
+#                Saves = (ntile(s_pg,100) / n())*100,
+#                `Clean Sheets` = 100 - ((ntile(cs_pg,100) / n())*100),
+#                `xG+xA` = (ntile(xgi_pg,100) / n())*100,
+#                Bonus = (ntile(b_pg,100) / n())*100,
+#                Goals = (ntile(g_pg,100) / n())*100,
+#                Assists = (ntile(a_pg,100) / n())*100,
+#                `Total Points` = (ntile(t_points_pg,100) / n())*100,
+#                `Defensive Contributions` = (ntile(dc_pg,100) / n())*100,
+#                DEFCON = (ntile(defcon_pg,100) / n())*100,
+#                cs = round(cs_pg, digits = 2),
+#                g = round(g_pg, digits = 2),
+#                a = round(a_pg, digits = 2),
+#                xg = round(xg_pg, digits = 2),
+#                xa = round(xa_pg, digits = 2),
+#                xgi = round(xgi_pg, digits = 2),
+#                dc = round(dc_pg, digits = 2),
+#                #dc = dc_pg,
+#                defcon = round(defcon_pg, digits = 2),
+#                b = round(b_pg, digits = 2),
+#                t_points = round(t_points_pg, digits = 2),
+#                ga = round(ga_pg, digits = 2),
+#                `G+A` = (ntile(ga_pg,100) / n())*100)
+#       else if (calculations == "Per Game" && nrow(.) > 100) 
+#         mutate(., xGoals = ntile(xg_pg,100),
+#                xAssists = ntile(xa_pg,100),
+#                Saves = ntile(s_pg,100),
+#                `Clean Sheets` = 100 - (ntile(cs_pg,100)),
+#                `xG+xA` = ntile(xgi_pg,100),
+#                Bonus = ntile(b_pg,100),
+#                Goals = ntile(g_pg,100),
+#                Assists = ntile(a_pg,100),
+#                `Total Points` = ntile(t_points_pg,100),
+#                `Defensive Contributions` = ntile(dc_pg,100),
+#                DEFCON = ntile(defcon_pg,100),
+#                cs = round(cs_pg, digits = 2),
+#                g = round(g_pg, digits = 2),
+#                a = round(a_pg, digits = 2),
+#                xg = round(xg_pg, digits = 2),
+#                xa = round(xa_pg, digits = 2),
+#                xgi = round(xgi_pg, digits = 2),
+#                dc = round(dc_pg, digits = 2),
+#                #dc = dc_pg,
+#                defcon = round(defcon_pg, digits = 2),
+#                b = round(b_pg, digits = 2),
+#                t_points = round(t_points_pg, digits = 2),
+#                ga = round(ga_pg, digits = 2),
+#                `G+A` = ntile(ga_pg,100))
+#       else if(calculations == "Per 90" && nrow(.) <= 100) 
+#         mutate(., xGoals = (ntile(xg_90,100) / n())*100,
+#                xAssists = (ntile(xa_90,100) / n())*100,
+#                Saves = (ntile(s_90,100) / n())*100,
+#                `Clean Sheets` = 100 - ((ntile(cs_90,100) / n())*100),
+#                `xG+xA` = (ntile(xgi_90,100) / n())*100,
+#                Bonus = (ntile(b_90,100) / n())*100,
+#                Goals = (ntile(g_90,100) / n())*100,
+#                Assists = (ntile(a_90,100) / n())*100,
+#                `Total Points` = (ntile(t_points_90,100) / n())*100,
+#                `Defensive Contributions` = (ntile(dc_90,100) / n())*100,
+#                DEFCON = (ntile(defcon_90,100) / n())*100,
+#                cs = round(cs_90, digits = 2),
+#                g = round(g_90, digits = 2),
+#                a = round(a_90, digits = 2),
+#                xg = round(xg_90, digits = 2),
+#                xa = round(xa_90, digits = 2),
+#                xgi = round(xgi_90, digits = 2),
+#                dc = round(dc_90, digits = 2),
+#                #dc = dc_90,
+#                defcon = round(defcon_90, digits = 2),
+#                b = round(b_90, digits = 2),
+#                t_points = round(t_points_90, digits = 2),
+#                ga = round(ga_90, digits = 2),
+#                `G+A` = (ntile(ga_90,100) / n())*100)
+#       else if (calculations == "Per 90" && nrow(.) > 100) 
+#         mutate(., xGoals = ntile(xg_90,100),
+#                xAssists = ntile(xa_90,100),
+#                Saves = ntile(s_90,100),
+#                `Clean Sheets` = 100 - (ntile(cs_90,100)),
+#                `xG+xA` = ntile(xgi_90,100),
+#                Bonus = ntile(b_90,100),
+#                Goals = ntile(g_90,100),
+#                Assists = ntile(a_90,100),
+#                `Total Points` = ntile(t_points_90,100),
+#                `Defensive Contributions` = ntile(dc_90,100),
+#                DEFCON = ntile(defcon_90,100),
+#                cs = round(cs_90, digits = 2),
+#                g = round(g_90, digits = 2),
+#                a = round(a_90, digits = 2),
+#                xg = round(xg_90, digits = 2),
+#                xa = round(xa_90, digits = 2),
+#                xgi = round(xgi_90, digits = 2),
+#                dc = round(dc_90, digits = 2),
+#                #dc = dc_90,
+#                defcon = round(defcon_90, digits = 2),
+#                b = round(b_90, digits = 2),
+#                t_points = round(t_points_90, digits = 2),
+#                ga = round(ga_90, digits = 2),
+#                `G+A` = ntile(ga_90,100))} %>%
+#     mutate(Goals = case_when(g == 0 ~ 0,
+#                              T ~ as.numeric(Goals)),
+#            `Clean Sheets` = case_when(cs == 0 ~ 0,
+#                                       T ~ as.numeric(`Clean Sheets`)),
+#            Assists = case_when(a == 0 ~ 0,
+#                                T ~ as.numeric(Assists)),
+#            `Defensive Contributions` = case_when(a == 0 ~ 0,
+#                                T ~ as.numeric(`Defensive Contributions`)),
+#            `G+A` = case_when(ga == 0 ~ 0,
+#                              T ~ as.numeric(`G+A`))) %>%
+#   select(name_club,short_team_name,Value,Goals,g,xGoals,xg,Assists,a,xAssists,xa,`xG+xA`,xgi,`G+A`,ga,mins,b,cs,`Clean Sheets`,`Total Points`, t_points, DEFCON, defcon, `Defensive Contributions`, dc, image) %>%
+#   rename(`Goals Percentile` = Goals,
+#          Goals = g,
+#          `xG Conceded` = cs,
+#          `xG Conceded Percentile` = `Clean Sheets`,
+#          Team = short_team_name,
+#          `xG+xA Value` = xgi,
+#          `Assists Percentile` = Assists,
+#          Assists = a,
+#          `xG Percentile` = xGoals,
+#          `xA Percentile` = xAssists,
+#          `xG Value` = xg,
+#          `xA Value` = xa,
+#          `xG+xA Percentile` = `xG+xA`,
+#          `G+A Percentile` = `G+A`,
+#          `G+A` = ga,
+#          Player = name_club,
+#          `Total Points Percenitle` = `Total Points`,
+#          `Total Points` = t_points,
+#          `Mins Played` = mins,
+#          `DEFCON Percentile` = DEFCON,
+#          DEFCON = defcon,
+#          `Def Cont. Percentile` = `Defensive Contributions`,
+#          `Defensive Contributions` = dc,
+#          `Bonus Points` = b) %>%
+#   # This simply rounds a lot of the variables    
+#   mutate(`Goals Percentile` = round(`Goals Percentile`, digits = 0),
+#          `xG Conceded Percentile` = round(`xG Conceded Percentile`, digits = 0),
+#          `Total Points Percenitle` = round(`Total Points Percenitle`, digits = 0),
+#          `Assists Percentile` = round(`Assists Percentile`, digits = 0),
+#          `xG Percentile` = round(`xG Percentile`, digits = 0),
+#          `xA Percentile` = round(`xA Percentile`, digits = 0),
+#          `xG+xA Percentile` = round(`xG+xA Percentile`, digits = 0),
+#          `DEFCON Percentile` = round(`DEFCON Percentile`, digits = 0),
+#          `Def Cont. Percentile`  = round(`Def Cont. Percentile`, digits = 0),
+#          `G+A Percentile` = round(`G+A Percentile`, digits = 0))
+#   
+# }
+
 create_table1 <- function(data, positions, gameweeks_1, gameweeks_2, starts_1, calculations, v) {
-
   
-  data %>%
-  # Get Link to Photos
-  separate_wider_delim(photo, ".", names = c("image_id", "image_type")) %>%
-  mutate(player_images = paste0('https://resources.premierleague.com/premierleague25/photos/players/110x140/',image_id,'.png')) %>%
-  mutate(DEFCON = case_when(Position == "DEF" & defensive_contribution >= 10 ~ 2,
-                              Position == "MID" & defensive_contribution >= 12 ~ 2,
-                              Position == "ST" & defensive_contribution >= 12 ~ 2,
-                              T ~ 0)) %>%
-  # Filter Positions
-  filter(Position %in% positions) %>%
-  # Filter Gameweeks
-  filter(round >= gameweeks_1 & round <= gameweeks_2) %>%
-  group_by(name_club, short_team_name) %>%
-  mutate(game = n()) %>%
-    nest() %>%
-    mutate(games = map(.x = data, ~ first(.x$game)),
-           Value = map(.x = data, ~ last(.x$value)),
-           starts = map(.x = data, ~ sum(.x$starts)),
-           mins = map(.x = data, ~ sum(.x$minutes)),
-           t_points = map(.x = data, ~ sum(.x$total_points)),
-           cs = map(.x = data, ~ sum(as.numeric(.x$total_xg_conceded))),
-           s = map(.x = data, ~ sum(.x$saves)),
-           g = map(.x = data, ~ sum(.x$goals_scored)),
-           a = map(.x = data, ~ sum(.x$assists)),
-           xg = map(.x = data, ~ sum(.x$expected_goals)),
-           xa = map(.x = data, ~ sum(.x$expected_assists)),
-           dc = map(.x = data, ~ sum(.x$defensive_contribution)),
-           defcon = map(.x = data, ~ sum(.x$DEFCON)),
-           image = map(.x = data, ~ unique(.x$player_images)),
-           xgi = map(.x = data, ~ sum(.x$expected_goal_involvements)),
-           b = map(.x = data, ~ sum(.x$bps))) %>%
-    select(-data) %>%
-    mutate(Value = as.numeric(Value) / 10) %>%
-    # Filter Value
-    filter(Value <= v) %>%
-    unnest(cols = c(games, Value, starts, mins,t_points, cs, s, g, a, xg, xa, xgi, b, image, dc, defcon)) %>%
-    as.data.frame() %>%
+  # Helper function to calculate percentiles
+  calculate_percentiles <- function(df, stat_cols, use_per_game = FALSE, use_per_90 = FALSE) {
+    n_rows <- nrow(df)
+    
+    # Define suffix based on calculation type
+    suffix <- if (use_per_game) "_pg" else if (use_per_90) "_90" else ""
+    
+    # Create percentile calculations
+    percentile_cols <- list(
+      `xGoals` = paste0("xg", suffix),
+      `xAssists` = paste0("xa", suffix),
+      `Saves` = paste0("s", suffix),
+      `Clean Sheets` = paste0("cs", suffix),
+      `xG+xA` = paste0("xgi", suffix),
+      `Bonus` = paste0("b", suffix),
+      `Goals` = paste0("g", suffix),
+      `Assists` = paste0("a", suffix),
+      `Total Points` = paste0("t_points", suffix),
+      `Defensive Contributions` = paste0("dc", suffix),
+      `DEFCON` = paste0("defcon", suffix),
+      `G+A` = paste0("ga", suffix)
+    )
+    
+    # Apply percentile calculations
+    for (new_col in names(percentile_cols)) {
+      old_col <- percentile_cols[[new_col]]
+      if (old_col %in% names(df)) {
+        if (new_col == "Clean Sheets") {
+          # Clean sheets is inverted (lower is better)
+          df[[new_col]] <- if (n_rows <= 100) {
+            100 - ((ntile(df[[old_col]], 100) / n_rows) * 100)
+          } else {
+            100 - ntile(df[[old_col]], 100)
+          }
+        } else {
+          df[[new_col]] <- if (n_rows <= 100) {
+            (ntile(df[[old_col]], 100) / n_rows) * 100
+          } else {
+            ntile(df[[old_col]], 100)
+          }
+        }
+      }
+    }
+    
+    return(df)
+  }
+  
+  # Helper function to round statistics columns
+  round_stats <- function(df, calculations) {
+    stat_cols <- c("cs", "g", "a", "xg", "xa", "xgi", "dc", "defcon", "b", "t_points", "ga")
+    
+    suffix <- case_when(
+      calculations == "Per Game" ~ "_pg",
+      calculations == "Per 90" ~ "_90",
+      TRUE ~ ""
+    )
+    
+    for (col in stat_cols) {
+      col_name <- paste0(col, suffix)
+      if (col_name %in% names(df)) {
+        df[[col]] <- round(df[[col_name]], digits = 2)
+      }
+    }
+    
+    return(df)
+  }
+  
+  # Main data processing pipeline
+  processed_data <- data %>%
+    # Get Link to Photos
+    separate_wider_delim(photo, ".", names = c("image_id", "image_type")) %>%
+    mutate(
+      player_images = paste0('https://resources.premierleague.com/premierleague25/photos/players/110x140/', image_id, '.png'),
+      DEFCON = case_when(
+        Position == "DEF" & defensive_contribution >= 10 ~ 2,
+        Position == "MID" & defensive_contribution >= 12 ~ 2,
+        Position == "ST" & defensive_contribution >= 12 ~ 2,
+        TRUE ~ 0
+      )
+    ) %>%
+    # Apply filters
+    filter(
+      Position %in% positions,
+      round >= gameweeks_1 & round <= gameweeks_2
+    ) %>%
+    # Group and aggregate
+    group_by(name_club, short_team_name) %>%
+    summarise(
+      games = n(),
+      Value = last(value) / 10,
+      starts = sum(starts),
+      mins = sum(minutes),
+      t_points = sum(total_points),
+      cs = sum(as.numeric(total_xg_conceded)),
+      s = sum(saves),
+      g = sum(goals_scored),
+      a = sum(assists),
+      xg = sum(expected_goals),
+      xa = sum(expected_assists),
+      dc = sum(defensive_contribution),
+      defcon = sum(DEFCON),
+      image = first(player_images),
+      xgi = sum(expected_goal_involvements),
+      b = sum(bps),
+      .groups = 'drop'
+    ) %>%
+    # Apply value and starts filters
+    filter(Value <= v, starts >= starts_1) %>%
+    # Calculate derived metrics
     mutate(ga = g + a) %>%
-    # Per Game
-    mutate(t_points_pg = round(t_points / games, digits = 2),
-           cs_pg = round(cs / games, digits = 2),
-           s_pg = round(s / games, digits = 2),
-           g_pg = round(g / games, digits = 2),
-           a_pg = round(a / games, digits = 2),
-           xg_pg = round(xg / games, digits = 2),
-           xa_pg = round(xa / games, digits = 2),
-           xgi_pg = round(xgi /games, digits = 2),
-           ga_pg = round(ga /games, digits = 2),
-           dc_pg = round(dc /games, digits = 2),
-           defcon_pg = round(defcon /games, digits = 2),
-           b_pg = round(b / games, digits = 2)) %>%
-    # Per 90
-    mutate(xg_90 = (xg / mins) *90,
-           cs_90 = (cs / mins) *90,
-           s_90 = (s / mins) *90,
-           xa_90 = (xa / mins) *90,
-           xgi_90 = (xgi / mins) *90,
-           b_90 = (b / mins) *90,
-           g_90 = (g / mins) *90,
-           a_90 = (a / mins) *90,
-           t_points_90 = (t_points / mins) *90,
-           dc_90 = (dc / mins) *90,
-           defcon_90 = (defcon / mins) *90,
-           ga_90 = (ga / mins) *90) %>%
-    # filter by starts
-    filter(starts >= starts_1) %>%
-    {if(calculations == "Total" && nrow(.) <= 100) 
-      mutate(., xGoals = (ntile(xg,100) / n())*100,
-             xAssists = (ntile(xa,100) / n())*100,
-             Saves = (ntile(s,100) / n())*100,
-             `Clean Sheets` = 100 - ((ntile(cs,100) / n())*100),
-             `xG+xA` = (ntile(xgi,100) / n())*100,
-             Bonus = (ntile(b,100) / n())*100,
-             Goals = (ntile(g,100) / n())*100,
-             Assists = (ntile(a,100) / n())*100,
-             `Total Points` = (ntile(t_points,100) / n())*100,
-             `Defensive Contributions` = (ntile(dc,100) / n())*100,
-             DEFCON = (ntile(defcon,100) / n())*100,
-             cs = round(cs, digits = 2),
-             g = round(g, digits = 2),
-             a = round(a, digits = 2),
-             xg = round(xg, digits = 2),
-             xa = round(xa, digits = 2),
-             xgi = round(xgi, digits = 2),
-             dc = round(dc, digits = 2),
-             defcon = round(defcon, digits = 2),
-             b = round(b, digits = 2),
-             t_points = round(t_points, digits = 2),
-             ga = round(ga, digits = 2),
-             `G+A` = (ntile(ga,100) / n())*100)
-      else if (calculations == "Total" && nrow(.) > 100) 
-        mutate(., xGoals = ntile(xg,100),
-               xAssists = ntile(xa,100),
-               Saves = ntile(s,100),
-               `Clean Sheets` = 100 - (ntile(cs,100)),
-               `xG+xA` = ntile(xgi,100),
-               Bonus = ntile(b,100),
-               Goals = ntile(g,100),
-               Assists = ntile(a,100),
-               `Total Points` = ntile(t_points,100),
-               `Defensive Contributions` = ntile(dc,100),
-               DEFCON = ntile(defcon,100),
-               cs = round(cs, digits = 2),
-               g = round(g, digits = 2),
-               a = round(a, digits = 2),
-               xg = round(xg, digits = 2),
-               xa = round(xa, digits = 2),
-               xgi = round(xgi, digits = 2),
-               dc = round(dc, digits = 2),
-               defcon = round(defcon, digits = 2),
-               b = round(b, digits = 2),
-               t_points = round(t_points, digits = 2),
-               ga = round(ga, digits = 2),
-               `G+A` = ntile(ga,100))
-      else if(calculations == "Per Game" && nrow(.) <= 100) 
-        mutate(., xGoals = (ntile(xg_pg,100) / n())*100,
-               xAssists = (ntile(xa_pg,100) / n())*100,
-               Saves = (ntile(s_pg,100) / n())*100,
-               `Clean Sheets` = 100 - ((ntile(cs_pg,100) / n())*100),
-               `xG+xA` = (ntile(xgi_pg,100) / n())*100,
-               Bonus = (ntile(b_pg,100) / n())*100,
-               Goals = (ntile(g_pg,100) / n())*100,
-               Assists = (ntile(a_pg,100) / n())*100,
-               `Total Points` = (ntile(t_points_pg,100) / n())*100,
-               `Defensive Contributions` = (ntile(dc_pg,100) / n())*100,
-               DEFCON = (ntile(defcon_pg,100) / n())*100,
-               cs = round(cs_pg, digits = 2),
-               g = round(g_pg, digits = 2),
-               a = round(a_pg, digits = 2),
-               xg = round(xg_pg, digits = 2),
-               xa = round(xa_pg, digits = 2),
-               xgi = round(xgi_pg, digits = 2),
-               dc = round(dc_pg, digits = 2),
-               #dc = dc_pg,
-               defcon = round(defcon_pg, digits = 2),
-               b = round(b_pg, digits = 2),
-               t_points = round(t_points_pg, digits = 2),
-               ga = round(ga_pg, digits = 2),
-               `G+A` = (ntile(ga_pg,100) / n())*100)
-      else if (calculations == "Per Game" && nrow(.) > 100) 
-        mutate(., xGoals = ntile(xg_pg,100),
-               xAssists = ntile(xa_pg,100),
-               Saves = ntile(s_pg,100),
-               `Clean Sheets` = 100 - (ntile(cs_pg,100)),
-               `xG+xA` = ntile(xgi_pg,100),
-               Bonus = ntile(b_pg,100),
-               Goals = ntile(g_pg,100),
-               Assists = ntile(a_pg,100),
-               `Total Points` = ntile(t_points_pg,100),
-               `Defensive Contributions` = ntile(dc_pg,100),
-               DEFCON = ntile(defcon_pg,100),
-               cs = round(cs_pg, digits = 2),
-               g = round(g_pg, digits = 2),
-               a = round(a_pg, digits = 2),
-               xg = round(xg_pg, digits = 2),
-               xa = round(xa_pg, digits = 2),
-               xgi = round(xgi_pg, digits = 2),
-               dc = round(dc_pg, digits = 2),
-               #dc = dc_pg,
-               defcon = round(defcon_pg, digits = 2),
-               b = round(b_pg, digits = 2),
-               t_points = round(t_points_pg, digits = 2),
-               ga = round(ga_pg, digits = 2),
-               `G+A` = ntile(ga_pg,100))
-      else if(calculations == "Per 90" && nrow(.) <= 100) 
-        mutate(., xGoals = (ntile(xg_90,100) / n())*100,
-               xAssists = (ntile(xa_90,100) / n())*100,
-               Saves = (ntile(s_90,100) / n())*100,
-               `Clean Sheets` = 100 - ((ntile(cs_90,100) / n())*100),
-               `xG+xA` = (ntile(xgi_90,100) / n())*100,
-               Bonus = (ntile(b_90,100) / n())*100,
-               Goals = (ntile(g_90,100) / n())*100,
-               Assists = (ntile(a_90,100) / n())*100,
-               `Total Points` = (ntile(t_points_90,100) / n())*100,
-               `Defensive Contributions` = (ntile(dc_90,100) / n())*100,
-               DEFCON = (ntile(defcon_90,100) / n())*100,
-               cs = round(cs_90, digits = 2),
-               g = round(g_90, digits = 2),
-               a = round(a_90, digits = 2),
-               xg = round(xg_90, digits = 2),
-               xa = round(xa_90, digits = 2),
-               xgi = round(xgi_90, digits = 2),
-               dc = round(dc_90, digits = 2),
-               #dc = dc_90,
-               defcon = round(defcon_90, digits = 2),
-               b = round(b_90, digits = 2),
-               t_points = round(t_points_90, digits = 2),
-               ga = round(ga_90, digits = 2),
-               `G+A` = (ntile(ga_90,100) / n())*100)
-      else if (calculations == "Per 90" && nrow(.) > 100) 
-        mutate(., xGoals = ntile(xg_90,100),
-               xAssists = ntile(xa_90,100),
-               Saves = ntile(s_90,100),
-               `Clean Sheets` = 100 - (ntile(cs_90,100)),
-               `xG+xA` = ntile(xgi_90,100),
-               Bonus = ntile(b_90,100),
-               Goals = ntile(g_90,100),
-               Assists = ntile(a_90,100),
-               `Total Points` = ntile(t_points_90,100),
-               `Defensive Contributions` = ntile(dc_90,100),
-               DEFCON = ntile(defcon_90,100),
-               cs = round(cs_90, digits = 2),
-               g = round(g_90, digits = 2),
-               a = round(a_90, digits = 2),
-               xg = round(xg_90, digits = 2),
-               xa = round(xa_90, digits = 2),
-               xgi = round(xgi_90, digits = 2),
-               dc = round(dc_90, digits = 2),
-               #dc = dc_90,
-               defcon = round(defcon_90, digits = 2),
-               b = round(b_90, digits = 2),
-               t_points = round(t_points_90, digits = 2),
-               ga = round(ga_90, digits = 2),
-               `G+A` = ntile(ga_90,100))} %>%
-    mutate(Goals = case_when(g == 0 ~ 0,
-                             T ~ as.numeric(Goals)),
-           `Clean Sheets` = case_when(cs == 0 ~ 0,
-                                      T ~ as.numeric(`Clean Sheets`)),
-           Assists = case_when(a == 0 ~ 0,
-                               T ~ as.numeric(Assists)),
-           `Defensive Contributions` = case_when(a == 0 ~ 0,
-                               T ~ as.numeric(`Defensive Contributions`)),
-           `G+A` = case_when(ga == 0 ~ 0,
-                             T ~ as.numeric(`G+A`))) %>%
-  select(name_club,short_team_name,Value,Goals,g,xGoals,xg,Assists,a,xAssists,xa,`xG+xA`,xgi,`G+A`,ga,mins,b,cs,`Clean Sheets`,`Total Points`, t_points, DEFCON, defcon, `Defensive Contributions`, dc, image) %>%
-  rename(`Goals Percentile` = Goals,
-         Goals = g,
-         `xG Conceded` = cs,
-         `xG Conceded Percentile` = `Clean Sheets`,
-         Team = short_team_name,
-         `xG+xA Value` = xgi,
-         `Assists Percentile` = Assists,
-         Assists = a,
-         `xG Percentile` = xGoals,
-         `xA Percentile` = xAssists,
-         `xG Value` = xg,
-         `xA Value` = xa,
-         `xG+xA Percentile` = `xG+xA`,
-         `G+A Percentile` = `G+A`,
-         `G+A` = ga,
-         Player = name_club,
-         `Total Points Percenitle` = `Total Points`,
-         `Total Points` = t_points,
-         `Mins Played` = mins,
-         `DEFCON Percentile` = DEFCON,
-         DEFCON = defcon,
-         `Def Cont. Percentile` = `Defensive Contributions`,
-         `Defensive Contributions` = dc,
-         `Bonus Points` = b) %>%
-  # This simply rounds a lot of the variables    
-  mutate(`Goals Percentile` = round(`Goals Percentile`, digits = 0),
-         `xG Conceded Percentile` = round(`xG Conceded Percentile`, digits = 0),
-         `Total Points Percenitle` = round(`Total Points Percenitle`, digits = 0),
-         `Assists Percentile` = round(`Assists Percentile`, digits = 0),
-         `xG Percentile` = round(`xG Percentile`, digits = 0),
-         `xA Percentile` = round(`xA Percentile`, digits = 0),
-         `xG+xA Percentile` = round(`xG+xA Percentile`, digits = 0),
-         `DEFCON Percentile` = round(`DEFCON Percentile`, digits = 0),
-         `Def Cont. Percentile`  = round(`Def Cont. Percentile`, digits = 0),
-         `G+A Percentile` = round(`G+A Percentile`, digits = 0))
+    # Calculate per-game stats
+    mutate(
+      t_points_pg = round(t_points / games, digits = 2),
+      cs_pg = round(cs / games, digits = 2),
+      s_pg = round(s / games, digits = 2),
+      g_pg = round(g / games, digits = 2),
+      a_pg = round(a / games, digits = 2),
+      xg_pg = round(xg / games, digits = 2),
+      xa_pg = round(xa / games, digits = 2),
+      xgi_pg = round(xgi / games, digits = 2),
+      ga_pg = round(ga / games, digits = 2),
+      dc_pg = round(dc / games, digits = 2),
+      defcon_pg = round(defcon / games, digits = 2),
+      b_pg = round(b / games, digits = 2)
+    ) %>%
+    # Calculate per-90 stats
+    mutate(
+      across(c(xg, cs, s, xa, xgi, b, g, a, t_points, dc, defcon, ga), 
+             ~ (.x / mins) * 90, 
+             .names = "{.col}_90")
+    )
   
+  # Apply percentile calculations based on calculation type
+  final_data <- switch(calculations,
+                       "Total" = calculate_percentiles(processed_data, use_per_game = FALSE, use_per_90 = FALSE),
+                       "Per Game" = calculate_percentiles(processed_data, use_per_game = TRUE, use_per_90 = FALSE),
+                       "Per 90" = calculate_percentiles(processed_data, use_per_game = FALSE, use_per_90 = TRUE)
+  )
+  
+  # Round statistics based on calculation type
+  final_data <- round_stats(final_data, calculations)
+  
+  # Handle zero cases for percentiles
+  final_data <- final_data %>%
+    mutate(
+      Goals = case_when(g == 0 ~ 0, TRUE ~ as.numeric(Goals)),
+      `Clean Sheets` = case_when(cs == 0 ~ 0, TRUE ~ as.numeric(`Clean Sheets`)),
+      Assists = case_when(a == 0 ~ 0, TRUE ~ as.numeric(Assists)),
+      `Defensive Contributions` = case_when(dc == 0 ~ 0, TRUE ~ as.numeric(`Defensive Contributions`)),
+      `G+A` = case_when(ga == 0 ~ 0, TRUE ~ as.numeric(`G+A`))
+    )
+  
+  # Select and rename columns
+  result <- final_data %>%
+    select(name_club, short_team_name, Value, Goals, g, xGoals, xg, Assists, a, 
+           xAssists, xa, `xG+xA`, xgi, `G+A`, ga, mins, b, cs, `Clean Sheets`, 
+           `Total Points`, t_points, DEFCON, defcon, `Defensive Contributions`, 
+           dc, image) %>%
+    rename(
+      Player = name_club,
+      Team = short_team_name,
+      `Goals Percentile` = Goals,
+      Goals = g,
+      `xG Conceded` = cs,
+      `xG Conceded Percentile` = `Clean Sheets`,
+      `xG+xA Value` = xgi,
+      `Assists Percentile` = Assists,
+      Assists = a,
+      `xG Percentile` = xGoals,
+      `xA Percentile` = xAssists,
+      `xG Value` = xg,
+      `xA Value` = xa,
+      `xG+xA Percentile` = `xG+xA`,
+      `G+A Percentile` = `G+A`,
+      `G+A` = ga,
+      `Total Points Percenitle` = `Total Points`,
+      `Total Points` = t_points,
+      `Mins Played` = mins,
+      `DEFCON Percentile` = DEFCON,
+      DEFCON = defcon,
+      `Def Cont. Percentile` = `Defensive Contributions`,
+      `Defensive Contributions` = dc,
+      `Bonus Points` = b
+    ) %>%
+    # Final rounding of percentile columns
+    mutate(
+      across(c(`Goals Percentile`, `xG Conceded Percentile`, `Total Points Percenitle`, 
+               `Assists Percentile`, `xG Percentile`, `xA Percentile`, `xG+xA Percentile`, 
+               `DEFCON Percentile`, `Def Cont. Percentile`, `G+A Percentile`), 
+             ~ round(.x, digits = 0))
+    )
+  
+  return(result)
 }
-
 
 rank_calculations <- function(teamid, Gameweeks) {
   

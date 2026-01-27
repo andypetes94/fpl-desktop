@@ -45,6 +45,9 @@ library(ggbump)
 library(readxl)
 library(tibble)
 library(readr)
+library(querychat)
+library(duckdb)
+library(ellmer)
 #library(gganimate)
 #library(gifski)
 
@@ -122,6 +125,30 @@ General_History <- read.csv('./25_26/General_Info.csv')
 
 Fixtures <- read.csv('./25_26/Fixtures.csv')
 
+table_talk_df <- Players_History %>%
+  select(-element, -fixture, -opponent_team, -kickoff_time, -modified, -starts, -id, -team, -element_type, -photo, -short_team_name, -opp_short_team_name, -Goals, -Opp_Goals, -name_club, -full_name, -team_h_score, -team_a_score, -recent_starts, -xg_against, -team_xg, first_name, second_name) %>%
+  rename(position = Position,
+         minutes_played = minutes,
+         website_short_name = web_name,
+         gameweek = round,
+         bonus_points_allocated = bonus,
+         price = value,
+         team_strength = strength,
+         opposition_team = opp_team_name,
+         opposition_fixture_difficulty = opp_strength,
+         team_elo = team_strength,
+         opposition_elo = opp_team_strength,
+         team_attack_elo = team_strength_att,
+         team_defence_elo = team_strength_def,
+         opposition_attack_elo = opp_team_strength_att,
+         opposition_defence_elo = opp_team_strength_def) %>%
+  mutate(price = paste0("£", price/10)) %>%
+  select(-contains("_mean")) %>%
+  relocate(website_short_name, team_name, position, price) %>%
+  relocate(was_home, .after = last_col())
+
+write.csv(table_talk_df, './25_26/Table_Talk.csv')
+
 #Team_Summary <- read.csv('./25_26/Team_Summary.csv')
 
 #team_id <- '110079'
@@ -144,10 +171,20 @@ short_team_vec <- c("ARS","AVL","BHA","BOU","BRE","BUR","CHE","CRY","EVE","FUL",
 
 #prediction_path <- './fplreview_1712224410.csv'
 
+#pplx_chat <- chat_perplexity(model = "sonar")
+
+qc <- QueryChat$new(
+  table_talk_df,
+  table_name = "table_talk_df",
+  client = "openai/gpt-4.1-mini",
+  greeting = "Ask about Players_History (e.g., last 5 rounds, top scorers, xG/xA leaders)."
+)
+
 ## Sidebar content
 
 ui <- dashboardPage(
   #dashboardHeader(title = "FPL Dashboard <img src='./Logo4.png' width='5'>"),
+
   dashboardHeader(
     title = "FPL Dashboard",
     
@@ -169,16 +206,51 @@ ui <- dashboardPage(
       menuItem("Mini-League Data", tabName = "leagues", icon = icon("sort", lib = "glyphicon")),
       menuItem("Ownership", tabName = "ownership_tab", icon = icon("heart", lib = "glyphicon")),
       menuItem("Fixtures", tabName = "fixtures_tab", icon = icon("calendar", lib = "glyphicon")),
-      menuItem("Team Data", tabName = "teams_tab", icon = icon("ok-circle", lib = "glyphicon"))#,
+      menuItem("Team Data", tabName = "teams_tab", icon = icon("ok-circle", lib = "glyphicon")),
+      menuItem("AI Assistant", tabName = "ai_tab", icon = icon("eye-open", lib = "glyphicon"))#,
       #menuItem("Prediction Data", tabName = "predictions_tab", icon = icon("stats", lib = "glyphicon"), badgeLabel = "New!", badgeColor = "green")
       )),
   dashboardBody(use_theme(mytheme),
                 includeCSS("www/custom.css"),
-                #tags$head(
-                #  tags$link(rel = "stylesheet", type = "text/css", href = "custom.css")),
+                # Send screen width to Shiny
+                tags$script(HTML("
+    $(document).on('shiny:connected', function() {
+      Shiny.setInputValue('screen_width', window.innerWidth);
+    });
+    $(window).resize(function(){
+      Shiny.setInputValue('screen_width', window.innerWidth);
+    });
+  ")),
+                tags$head(
+                  tags$style(HTML("
+    /* TODO: replace selectors after inspecting the element */
+    .querychat-tool,
+    .querychat-tools,
+    .chat-tool,
+    .tool-call,
+    pre code.language-sql {
+      display: none !important;
+    }
+  "))
+                ),
       tabItems(
         tabItem(tabName = "dashboard",
-                fluidRow(tags$img(src='Logo Player Comparison.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                #fluidRow(tags$img(src='Logo Player Comparison.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                fluidRow(
+                  div(
+                    class = "logo-container",
+                    
+                    tags$img(
+                      src = "Detailed_Transparent_Logo.png",
+                      alt = "Logo"
+                    ),
+                    
+                    div(
+                      tags$h1(class = "logo-title", "FPL Data Vizard"),
+                      tags$h1(class = "logo-subtitle", "Player Comparison")
+                    )
+                  )
+                ),
                 fluidRow(align = "center",
                   box(status = "info",
                       collapsible = TRUE,
@@ -268,7 +340,23 @@ ui <- dashboardPage(
         
         # Second tab content
         tabItem(tabName = "ratings",
-                fluidRow(tags$img(src='Logo Rankings.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                
+                #fluidRow(tags$img(src='Logo Rankings.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                fluidRow(
+                  div(
+                    class = "logo-container",
+                    
+                    tags$img(
+                      src = "Detailed_Transparent_Logo.png",
+                      alt = "Logo"
+                    ),
+                    
+                    div(
+                      tags$h1(class = "logo-title", "FPL Data Vizard"),
+                      tags$h1(class = "logo-subtitle", "Rankings")
+                    )
+                  )
+                ),
                 fluidRow(align = "center",
                          box(status = "info",
                              collapsible = TRUE,
@@ -301,7 +389,22 @@ ui <- dashboardPage(
         
         # Bench tab content
         tabItem(tabName = "bench",
-                fluidRow(tags$img(src='Logo Bench.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                #fluidRow(tags$img(src='Logo Bench.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                fluidRow(
+                  div(
+                    class = "logo-container",
+                    
+                    tags$img(
+                      src = "Detailed_Transparent_Logo.png",
+                      alt = "Logo"
+                    ),
+                    
+                    div(
+                      tags$h1(class = "logo-title", "FPL Data Vizard"),
+                      tags$h1(class = "logo-subtitle", "Bench & Captaincy")
+                    )
+                  )
+                ),
                 fluidRow(align = "center",
                          box(status = "info",
                              collapsible = TRUE,
@@ -335,7 +438,22 @@ ui <- dashboardPage(
         
         # Third tab content
         tabItem(tabName = "transfers_tab",
-                fluidRow(tags$img(src='Logo Transfers.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                #fluidRow(tags$img(src='Logo Transfers.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+                fluidRow(
+                  div(
+                    class = "logo-container",
+                    
+                    tags$img(
+                      src = "Detailed_Transparent_Logo.png",
+                      alt = "Logo"
+                    ),
+                    
+                    div(
+                      tags$h1(class = "logo-title", "FPL Data Vizard"),
+                      tags$h1(class = "logo-subtitle", "Transfers")
+                    )
+                  )
+                ),
                 fluidRow(align = "center",
                          box(status = "info",
                              collapsible = TRUE,
@@ -392,7 +510,22 @@ ui <- dashboardPage(
                 )),
 # Fourth tab content
 tabItem(tabName = "fixtures_tab",
-        fluidRow(tags$img(src='Logo Fixtures.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        #fluidRow(tags$img(src='Logo Fixtures.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        fluidRow(
+          div(
+            class = "logo-container",
+            
+            tags$img(
+              src = "Detailed_Transparent_Logo.png",
+              alt = "Logo"
+            ),
+            
+            div(
+              tags$h1(class = "logo-title", "FPL Data Vizard"),
+              tags$h1(class = "logo-subtitle", "Fixtures")
+            )
+          )
+        ),
         fluidRow(align = "center",
                  box(status = "success",
                      collapsible = TRUE,
@@ -415,7 +548,22 @@ tabItem(tabName = "fixtures_tab",
         
 # Fifth tab content
 tabItem(tabName = "leagues",
-        fluidRow(tags$img(src='Logo League.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        #fluidRow(tags$img(src='Logo League.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        fluidRow(
+          div(
+            class = "logo-container",
+            
+            tags$img(
+              src = "Detailed_Transparent_Logo.png",
+              alt = "Logo"
+            ),
+            
+            div(
+              tags$h1(class = "logo-title", "FPL Data Vizard"),
+              tags$h1(class = "logo-subtitle", "Mini-Leagues")
+            )
+          )
+        ),
         fluidRow(align = "center",
                  box(status = "info",
                      collapsible = TRUE,
@@ -493,13 +641,26 @@ tabItem(tabName = "leagues",
                 #     plotOutput("ownership_plot"), downloadButton("ownership_download", label = "Download This Plot")),
                  
                  
-                 
-                 
 
         )), 
 # Ownership tab content
 tabItem(tabName = "ownership_tab",
-        fluidRow(tags$img(src='Logo Ownership.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        #fluidRow(tags$img(src='Logo Ownership.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        fluidRow(
+          div(
+            class = "logo-container",
+            
+            tags$img(
+              src = "Detailed_Transparent_Logo.png",
+              alt = "Logo"
+            ),
+            
+            div(
+              tags$h1(class = "logo-title", "FPL Data Vizard"),
+              tags$h1(class = "logo-subtitle", "Ownership")
+            )
+          )
+        ),
         fluidRow(align = "center",
                  box(status = "info",
                      collapsible = TRUE,
@@ -587,7 +748,22 @@ tabItem(tabName = "ownership_tab",
 
 # Sixth tab content
 tabItem(tabName = "teams_tab",
-        fluidRow(tags$img(src='Logo Team.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        #fluidRow(tags$img(src='Logo Team.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
+        fluidRow(
+          div(
+            class = "logo-container",
+            
+            tags$img(
+              src = "Detailed_Transparent_Logo.png",
+              alt = "Logo"
+            ),
+            
+            div(
+              tags$h1(class = "logo-title", "FPL Data Vizard"),
+              tags$h1(class = "logo-subtitle", "Team Data")
+            )
+          )
+        ),
         fluidRow(align = "center",
                  box(status = "primary",
                      collapsible = TRUE,
@@ -646,7 +822,27 @@ tabItem(tabName = "teams_tab",
                  #     width = 12, 
                  #     dataTableOutput('table_team')),
                  
-        ))
+        )), 
+# AI tab content 
+# ui.R (or UI section)
+tabItem(
+  tabName = "ai_tab",
+  fluidRow(
+    box(width = 12, status = "primary", qc$ui(id = "ai")),
+    #box(width = 8, status = "warning", title = "SQL", verbatimTextOutput("ai_sql")),
+    
+    box(
+      width = 12, status = "info", title = "Results",
+      checkboxInput("show_ai_table", "Show results table", value = FALSE),
+      
+      conditionalPanel(
+        condition = "input.show_ai_table === true",
+        DT::DTOutput("ai_data")
+      )
+    )
+  )
+)
+
                          
     )
   )
@@ -660,15 +856,28 @@ tabItem(tabName = "teams_tab",
 
 server <- function(input, output, session) {
   
-#  # call the server part
-#  # check_credentials returns a function to authenticate users
-#  res_auth <- secure_server(
-#    check_credentials = check_credentials(credentials)
-#  )
-  
-#  output$auth_output <- renderPrint({
-#    reactiveValuesToList(res_auth)
-#  })
+  observeEvent(input$screen_width, {
+    
+    # Threshold:
+    # < 992 px = phones + tablets in portrait mode
+    if (!is.null(input$screen_width) && input$screen_width < 992) {
+      sendSweetAlert(
+        session,
+        title = NULL,
+        text = tags$div(
+          tags$img(src = "Detailed_Transparent_Logo.png", height = "200px",
+                   style="display:block;margin-left:auto;margin-right:auto;margin-bottom:12px;"),
+          tags$strong("Optimised for Desktop 💻"),
+          tags$br(),
+          "The full dashboard experience works best on a computer.",
+          style="text-align:center;"
+        ),
+        html = TRUE,
+        type = "info",
+        btn_labels = "Continue"
+      )
+    }
+  }, ignoreInit = FALSE)
   
   
 #  #v <- reactiveValues(plot = NULL)
@@ -5978,6 +6187,36 @@ output$prediction_download <- downloadHandler(
     
     
   })
+
+qc_vals <- qc$server(id = "ai")
+
+output$ai_sql <- renderText({
+  qc_vals$sql() %||% "SELECT * FROM table_talk"
+})
+
+output$ai_data <- DT::renderDT({
+  req(input$show_ai_table)  # only render when checkbox is on [web:192]
+  
+  df <- qc_vals$df()
+  
+  # Optional safety: cap rows so the widget stays responsive
+  #df <- head(df, 200)
+  
+  DT::datatable(
+    df,
+    #options = list(scrollX = TRUE, pageLength = 15, dom = "tip")
+    rownames = F, extensions = "FixedColumns",
+    options = list(
+      scrollX = T,
+      paging = TRUE, 
+      searching = TRUE, 
+      info = FALSE,
+      sort = TRUE,
+      fixedColumns = TRUE,
+      autoWidth = TRUE)
+  )
+})
+
 
 
 }
