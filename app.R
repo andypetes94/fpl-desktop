@@ -183,6 +183,7 @@ qc <- QueryChat$new(
 ## Sidebar content
 
 ui <- dashboardPage(
+  title = "FPL Dashboard",
   #dashboardHeader(title = "FPL Dashboard <img src='./Logo4.png' width='5'>"),
 
   dashboardHeader(
@@ -212,7 +213,11 @@ ui <- dashboardPage(
       menuItem("AI Assistant", tabName = "ai_tab", icon = icon("eye-open", lib = "glyphicon"), badgeLabel = "NEW", badgeColor = "green")#,
       #menuItem("Prediction Data", tabName = "predictions_tab", icon = icon("stats", lib = "glyphicon"), badgeLabel = "New!", badgeColor = "green")
       )),
-  dashboardBody(use_theme(mytheme),
+  dashboardBody(tags$head(
+    tags$title("FPL Dashboard"),
+    tags$link(rel="icon", type="image/png", href="logo.png")
+  ),
+                use_theme(mytheme),
                 includeCSS("www/custom.css"),
                 # Send screen width to Shiny
                 tags$script(HTML("
