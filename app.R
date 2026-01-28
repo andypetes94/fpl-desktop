@@ -186,7 +186,9 @@ ui <- dashboardPage(
   #dashboardHeader(title = "FPL Dashboard <img src='./Logo4.png' width='5'>"),
 
   dashboardHeader(
-    title = "FPL Dashboard",
+    #title = "FPL Dashboard",
+    #tags$img(src = "logo_white.png", height = "30px"))
+    title = tags$div(tags$img(src = "./logo.png", height = "30px"), "FPL Dashboard"),
     
     # Dropdown menu for messages
     dropdownMenu(type = "messages", badgeStatus = "success",
@@ -207,7 +209,7 @@ ui <- dashboardPage(
       menuItem("Ownership", tabName = "ownership_tab", icon = icon("heart", lib = "glyphicon")),
       menuItem("Fixtures", tabName = "fixtures_tab", icon = icon("calendar", lib = "glyphicon")),
       menuItem("Team Data", tabName = "teams_tab", icon = icon("ok-circle", lib = "glyphicon")),
-      menuItem("AI Assistant", tabName = "ai_tab", icon = icon("eye-open", lib = "glyphicon"))#,
+      menuItem("AI Assistant", tabName = "ai_tab", icon = icon("eye-open", lib = "glyphicon"), badgeLabel = "NEW", badgeColor = "green")#,
       #menuItem("Prediction Data", tabName = "predictions_tab", icon = icon("stats", lib = "glyphicon"), badgeLabel = "New!", badgeColor = "green")
       )),
   dashboardBody(use_theme(mytheme),

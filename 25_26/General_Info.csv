@@ -82,6 +82,7 @@
 768,"Leon","Routh","Leon Routh",2,2,"664015.jpg","Aston Villa","AVL",3,1145,1185,1150,1170,1140,1200
 781,"TJ","Carroll","Carroll",2,2,"618027.jpg","Aston Villa","AVL",3,1145,1185,1150,1170,1140,1200
 792,"Alysson Edward Franco","da Rocha dos Santos","Alysson",2,3,"653481.jpg","Aston Villa","AVL",3,1145,1185,1150,1170,1140,1200
+808,"Tammy","Abraham","Abraham",2,4,"173879.jpg","Aston Villa","AVL",3,1145,1185,1150,1170,1140,1200
 183,"Max","Weiß","Weiss",3,1,"518030.jpg","Burnley","BUR",3,1055,1095,1010,1090,1100,1100
 184,"Etienne","Green","Green",3,1,"489571.jpg","Burnley","BUR",3,1055,1095,1010,1090,1100,1100
 185,"Václav","Hladký","Hladký",3,1,"51943.jpg","Burnley","BUR",3,1055,1095,1010,1090,1100,1100
@@ -168,6 +169,8 @@
 782,"Fraser","Forster","Forster",4,1,"40383.jpg","Bournemouth","BOU",3,1150,1220,1100,1240,1200,1200
 799,"Charlie","Stevens","Stevens",4,3,"658013.jpg","Bournemouth","BOU",3,1150,1220,1100,1240,1200,1200
 801,"Alex","Tóth","Tóth.A",4,3,"614574.jpg","Bournemouth","BOU",3,1150,1220,1100,1240,1200,1200
+806,"Christos","Mandas","Mandas",4,1,"436416.jpg","Bournemouth","BOU",3,1150,1220,1100,1240,1200,1200
+807,"Rayan Vitor","Simplício Rocha","Rayan",4,3,"499604.jpg","Bournemouth","BOU",3,1150,1220,1100,1240,1200,1200
 27,"Reiss","Nelson","Nelson",5,3,"200641.jpg","Brentford","BRE",3,1135,1175,1100,1110,1170,1240
 83,"Dango","Ouattara","O.Dango",5,3,"533463.jpg","Brentford","BRE",3,1135,1175,1100,1110,1170,1240
 101,"Caoimhín","Kelleher","Kelleher",5,1,"200720.jpg","Brentford","BRE",3,1135,1175,1100,1110,1170,1240
@@ -218,6 +221,7 @@
 146,"Lewis","Dunk","Dunk",6,2,"83299.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
 147,"Pervis","Estupiñán Tenorio","Estupiñan",6,2,"204214.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
 148,"Ferdi","Kadıoğlu","F.Kadıoğlu",6,2,"231416.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
+149,"Igor Julio","dos Santos de Paulo","Igor",6,2,"223434.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
 150,"Tariq","Lamptey","Lamptey",6,2,"232792.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
 151,"Jan Paul","van Hecke","Van Hecke",6,2,"469142.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
 152,"Joël","Veltman","Veltman",6,2,"111478.jpg","Brighton","BHA",3,1150,1160,1090,1110,1210,1210
@@ -380,7 +384,6 @@
 323,"Samuel","Amissah","Amissah",10,2,"591385.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
 324,"Alex","Iwobi","Iwobi",10,3,"153133.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
 325,"Emile","Smith Rowe","Smith Rowe",10,3,"209289.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
-326,"Adama","Traoré Diarra","Adama",10,3,"159533.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
 327,"Andreas","Hoelgebaum Pereira","Andreas",10,3,"156689.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
 328,"Ryan","Sessegnon","Sessegnon",10,3,"184349.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
 329,"Harry","Wilson","Wilson",10,3,"153682.jpg","Fulham","FUL",3,1090,1130,1080,1140,1100,1120
@@ -723,7 +726,7 @@
 790,"Lucá","Williams-Barnett","Williams-Barnett",18,3,"611917.jpg","Spurs","TOT",3,1165,1175,1130,1150,1200,1200
 796,"Conor","Gallagher","Gallagher",18,3,"232787.jpg","Spurs","TOT",3,1165,1175,1130,1150,1200,1200
 804,"João Victor","de Souza Menezes","Souza",18,2,"616221.jpg","Spurs","TOT",3,1165,1175,1130,1150,1200,1200
-149,"Igor Julio","dos Santos de Paulo","Igor",19,2,"223434.jpg","West Ham","WHU",3,1075,1075,1050,1050,1100,1100
+326,"Adama","Traoré Diarra","Adama",19,3,"159533.jpg","West Ham","WHU",3,1075,1075,1050,1050,1100,1100
 600,"Alphonse","Areola","Areola",19,1,"84182.jpg","West Ham","WHU",3,1075,1075,1050,1050,1100,1100
 601,"Wes","Foderingham","Foderingham",19,1,"82143.jpg","West Ham","WHU",3,1075,1075,1050,1050,1100,1100
 602,"Krisztián","Hegyi","Hegyi",19,1,"483364.jpg","West Ham","WHU",3,1075,1075,1050,1050,1100,1100
