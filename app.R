@@ -142,7 +142,7 @@ table_talk_df <- Players_History %>%
          team_defence_elo = team_strength_def,
          opposition_attack_elo = opp_team_strength_att,
          opposition_defence_elo = opp_team_strength_def) %>%
-  mutate(price = paste0("£", price/10)) %>%
+  mutate(price = price/10) %>%
   select(-contains("_mean")) %>%
   relocate(website_short_name, team_name, position, price) %>%
   relocate(was_home, .after = last_col())
@@ -177,7 +177,7 @@ qc <- QueryChat$new(
   table_talk_df,
   table_name = "table_talk_df",
   client = "openai/gpt-4.1-mini",
-  greeting = "Ask about Players and Teams (e.g., What players have scored the most goals in the last 6 gameweeks?)."
+  greeting = "Ask me about your FPL queries!"
 )
 
 ## Sidebar content
@@ -824,6 +824,21 @@ tabItem(tabName = "teams_tab",
 # ui.R (or UI section)
 tabItem(
   tabName = "ai_tab",
+  fluidRow(
+    div(
+      class = "logo-container",
+      
+      tags$img(
+        src = "Detailed_Transparent_Logo.png",
+        alt = "Logo"
+      ),
+      
+      div(
+        tags$h1(class = "logo-title", "FPL Data Vizard"),
+        tags$h1(class = "logo-subtitle", "AI Assistant")
+      )
+    )
+  ),
   fluidRow(
     #box(width = 12, status = "primary", qc$ui(id = "ai")),
     box(
