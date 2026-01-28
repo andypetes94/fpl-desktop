@@ -147,7 +147,7 @@ table_talk_df <- Players_History %>%
   relocate(website_short_name, team_name, position, price) %>%
   relocate(was_home, .after = last_col())
 
-write.csv(table_talk_df, './25_26/Table_Talk.csv')
+#write.csv(table_talk_df, './25_26/Table_Talk.csv')
 
 #Team_Summary <- read.csv('./25_26/Team_Summary.csv')
 
@@ -177,7 +177,7 @@ qc <- QueryChat$new(
   table_talk_df,
   table_name = "table_talk_df",
   client = "openai/gpt-4.1-mini",
-  greeting = "Ask about Players_History (e.g., last 5 rounds, top scorers, xG/xA leaders)."
+  greeting = "Ask about Players and Teams (e.g., What players have scored the most goals in the last 6 gameweeks?)."
 )
 
 ## Sidebar content
@@ -221,18 +221,15 @@ ui <- dashboardPage(
       Shiny.setInputValue('screen_width', window.innerWidth);
     });
   ")),
-                tags$head(
-                  tags$style(HTML("
-    /* TODO: replace selectors after inspecting the element */
-    .querychat-tool,
-    .querychat-tools,
-    .chat-tool,
-    .tool-call,
-    pre code.language-sql {
+  tags$head(
+    tags$style(HTML("
+    /* Hide code blocks in the AI chat only */
+    #ai_chat pre,
+    #ai_chat pre code {
       display: none !important;
     }
   "))
-                ),
+  ),
       tabItems(
         tabItem(tabName = "dashboard",
                 #fluidRow(tags$img(src='Logo Player Comparison.png', alt = "Something Went Wrong", deleteFile =  FALSE, height = 300), style = "text-align: center;"),
@@ -828,12 +825,16 @@ tabItem(tabName = "teams_tab",
 tabItem(
   tabName = "ai_tab",
   fluidRow(
-    box(width = 12, status = "primary", qc$ui(id = "ai")),
+    #box(width = 12, status = "primary", qc$ui(id = "ai")),
+    box(
+      width = 12, status = "primary",
+      div(id = "ai_chat", qc$ui(id = "ai"))
+    ),
     #box(width = 8, status = "warning", title = "SQL", verbatimTextOutput("ai_sql")),
     
     box(
-      width = 12, status = "info", title = "Results",
-      checkboxInput("show_ai_table", "Show results table", value = FALSE),
+      width = 12, status = "info", title = "Dashboard",
+      checkboxInput("show_ai_table", "Show Results Table", value = FALSE),
       
       conditionalPanel(
         condition = "input.show_ai_table === true",
@@ -6195,7 +6196,7 @@ output$ai_sql <- renderText({
 })
 
 output$ai_data <- DT::renderDT({
-  req(input$show_ai_table)  # only render when checkbox is on [web:192]
+  req(input$show_ai_table)  # only render when checkbox is on 
   
   df <- qc_vals$df()
   
